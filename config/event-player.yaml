@@ -1,0 +1,7 @@
+#config_version=5
+
+event_player:
+  player_score{current_player.score < 10000}:
+    - find_me_player_score_less_than_10000
+  player_score{current_player.score > 10000 and current_player.score < 20000}:
+    - find_me_player_score_between_10000_and_20000

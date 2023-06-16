@@ -1,0 +1,33 @@
+#config_version=5
+
+switches:
+  s_left_flipper:
+    number:
+    tags: left_flipper
+  s_right_flipper:
+    number: 
+    tags: right_flipper
+  s_trough1:
+    number:
+  s_trough2:
+    number:
+  s_trough3:
+    number:
+  s_trough4:
+    number:
+  s_trough5:
+    number:
+  s_trough6:
+    number:
+  s_trough_jam:
+    number:
+  s_plunger_lane:
+    number:
+  s_launch_button:
+    number:
+  s_start:
+    number:
+    tags: start
+  s_right_inlane:
+    number:
+    tags: playfield_active

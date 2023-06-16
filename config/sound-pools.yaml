@@ -1,0 +1,13 @@
+#config_version=5
+
+sound_pools:
+  arrow:
+    type: random
+    track: effects
+    sounds:
+      - arrow1
+      - arrow2
+      - arrow3
+      - arrow4
+      - arrow5
+      - arrow6

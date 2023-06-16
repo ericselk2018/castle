@@ -1,0 +1,24 @@
+#config_version=5
+
+# https://www.youtube.com/watch?v=8CcEgMWdeJs - 1:19:40 - 1:20:52, 1:20:59 - 1:22:06, 1:22:10 - 1:23:22, 1:51:34 - 1:52:45, 1:52:48 - 1:53:58, 1:56:58
+# https://www.youtube.com/watch?v=NNLfNezFqNk
+
+sounds:
+  # Medieval Fantasy by MaxKoMusic | https://maxkomusic.com/
+  # Music promoted by https://www.free-stock-music.com
+  # Creative Commons / Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+  # https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+  background_loop:
+    file: background-loop.wav
+  arrow1:
+    file: arrow1.wav
+  arrow2:
+    file: arrow2.wav
+  arrow3:
+    file: arrow3.wav
+  arrow4:
+    file: arrow4.wav
+  arrow5:
+    file: arrow5.wav
+  arrow6:
+    file: arrow6.wav
