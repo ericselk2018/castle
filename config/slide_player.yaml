@@ -1,0 +1,4 @@
+#config_version=5
+
+slide_player:
+  init_done: welcome_slide

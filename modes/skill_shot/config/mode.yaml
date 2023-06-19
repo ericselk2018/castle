@@ -1,0 +1,6 @@
+#config_version=5
+
+mode:
+  start_events: ball_started
+  stop_events: playfield_active
+  priority: 1000

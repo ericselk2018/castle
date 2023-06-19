@@ -3,48 +3,18 @@
 config:
   - switches.yaml
   - coils.yaml
-  - ball-devices.yaml
+  - ball_devices.yaml
   - keyboard.yaml
-  - sound-system.yaml
+  - sound_system.yaml
   - assets.yaml
-  - sound-player.yaml
+  - sound_player.yaml
   - sounds.yaml
-  - event-player.yaml
-  - sound-pools.yaml
-
-playfields:
-  playfield:
-    tags: default
-    default_source_device: bd_plunger
-
-flippers:
-  left_flipper:
-    main_coil: c_flipper_left_main
-    hold_coil: c_flipper_left_hold
-    activation_switch: s_left_flipper
-  right_flipper:
-    main_coil: c_flipper_right_main
-    hold_coil: c_flipper_right_hold
-    activation_switch: s_right_flipper
-
-displays:
-  window:
-    width: 800
-    height: 600
-
-slides:
-  welcome_slide:
-    widgets:
-      - type: text
-        text: PINBALL!
-        font_size: 50
-        color: red
-      - type: rectangle
-        width: 240
-        height: 60
-
-slide_player:
-  init_done: welcome_slide
-
-modes:
-  - base
+  - event_player.yaml
+  - sound_pools.yaml
+  - playfields.yaml
+  - flippers.yaml
+  - displays.yaml
+  - slides.yaml
+  - slide_player.yaml
+  - modes.yaml
+  - lights.yaml

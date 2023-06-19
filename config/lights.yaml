@@ -1,0 +1,11 @@
+#config_version=5
+
+lights:
+  l_top_lane_1:
+    number:
+  l_top_lane_2:
+    number:
+  l_top_lane_3:
+    number:
+  l_top_lane_4:
+    number:

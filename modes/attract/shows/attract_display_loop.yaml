@@ -1,5 +1,4 @@
 #show_version=5
-##! show: attract_display_loop
 
 - duration: 3s
   slides:
@@ -64,5 +63,3 @@
         min_digits: 2
         font_size: 50
         y: 40%
-
-##! mode: attract

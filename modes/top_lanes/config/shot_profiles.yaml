@@ -1,0 +1,10 @@
+#config_version=5
+
+shot_profiles:
+  top_lane_profile:
+    advance_on_hit: true
+    states:
+      - name: off
+        show: off
+      - name: on
+        show: on

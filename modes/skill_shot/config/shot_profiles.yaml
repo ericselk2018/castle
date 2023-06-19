@@ -1,0 +1,9 @@
+#config_version=5
+
+shot_profiles:
+  skill_shot_profile:
+    states:
+      - name: off
+        show: off
+      - name: lit
+        show: flash

@@ -1,0 +1,7 @@
+#config_version=5
+
+variable_player:
+  s_right_inlane_active:
+    score: 100
+  s_left_flipper_active:
+    score: 1000
