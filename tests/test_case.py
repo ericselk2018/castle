@@ -7,10 +7,12 @@ class TestCase(MpfMachineTestCase):
 
         # see MpfTestCase.unittest_verbosity - looks like probably a command line option to enable verbose test logs
         # This enables logging for game events, not just tests.
-        console_log = logging.StreamHandler()
-        console_log.setLevel(logging.DEBUG)
-        logging.basicConfig(level=logging.DEBUG,
-                           handlers=[console_log])
+        # console_log = logging.StreamHandler()
+        # console_log.setLevel(logging.DEBUG)
+        # logging.basicConfig(level=logging.DEBUG,
+        #                    handlers=[console_log])
+
+        logging.basicConfig(level=99)
 
         # internal logger just for our test needs
         self.log = logging.getLogger("Test Case")
@@ -20,12 +22,17 @@ class TestCase(MpfMachineTestCase):
         return 2
 
     def start_single_player_game(self):
-        self.set_num_balls_known(6)
-        self.machine.playfield.ball_search.disable()
-        self.advance_time_and_run()
+        # make test bugs easier to find, ensure a game isn't already started
+        self.assertIsNone(self.machine.game)
+
+        # start game by pressing start switch and ensure it started
         self.hit_and_release_switch('s_start')
         self.assertIsNotNone(self.machine.game)
-        self.advance_time_and_run()
+
+        # TODO: Do something config related instead of using hard coded switches?
+        # trough = self.machine.ball_devices.items_tagged('trough')[0]
+        # self.log.info(trough.config['ball_switches'])
+        # self.log.info(trough.config['jam_switch'])
 
         # ball moves from trough 1 to plunger lane
         self.release_switch_and_run('s_trough1', 1)
@@ -60,13 +67,6 @@ class TestCase(MpfMachineTestCase):
     def drain_ball(self):
         self.release_switch_and_run('s_plunger_lane', 1)
         self.hit_switch_and_run('s_trough6', 1)
-        # drain = self.machine.ball_devices.items_tagged("drain")[0]
-        # for _ in range(self.machine.game.balls_in_play):
-        #     self.log.info('draining ball')
-        #     self.machine.default_platform.add_ball_to_device(drain)
-        # self.advance_time_and_run()
-        # self.log.info('balls in play after drain')
-        # self.log.info(self.machine.game.balls_in_play)
 
     def assert_player_number(self, number):
         self.assertEqual(number, self.machine.game.player.index + 1)
