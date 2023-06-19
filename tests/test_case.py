@@ -5,13 +5,9 @@ class TestCase(MpfMachineTestCase):
     def __init__(self, methodName='runTest'):
         super().__init__(methodName)
 
-        # see MpfTestCase.unittest_verbosity - looks like probably a command line option to enable verbose test logs
-        # This enables logging for game events, not just tests.
-        # console_log = logging.StreamHandler()
-        # console_log.setLevel(logging.DEBUG)
-        # logging.basicConfig(level=logging.DEBUG,
-        #                    handlers=[console_log])
-
+        # this controls logging outside of tests, for times we want to see logs from game code we are testing
+        # level 99 = no logging
+        # logging.basicConfig(level=logging.DEBUG)
         logging.basicConfig(level=99)
 
         # internal logger just for our test needs
@@ -29,34 +25,26 @@ class TestCase(MpfMachineTestCase):
         self.hit_and_release_switch('s_start')
         self.assertIsNotNone(self.machine.game)
 
-        # TODO: Do something config related instead of using hard coded switches?
-        # trough = self.machine.ball_devices.items_tagged('trough')[0]
-        # self.log.info(trough.config['ball_switches'])
-        # self.log.info(trough.config['jam_switch'])
+        self.eject_ball_from_trough()
 
+        # should be one player game
+        self.assertEqual(1, self.machine.game.num_players)
+
+    def eject_ball_from_trough(self):
         # ball moves from trough 1 to plunger lane
         self.release_switch_and_run('s_trough1', 1)
         self.hit_switch_and_run('s_plunger_lane', 1)
 
-        # ball moves from trough 2 to trough 1
-        self.release_switch_and_run('s_trough2', 1)
-        self.hit_switch_and_run('s_trough1', 1)
+        # remaining balls settle in trough (roll down one switch at a time)
+        for i in [1, 2, 3, 4, 5]:
+            self.release_switch_and_run('s_trough' + str(i + 1), 1)
+            self.hit_switch_and_run('s_trough' + str(i), 1)
 
-        # ball moves from trough 3 to trough 2
-        self.release_switch_and_run('s_trough3', 1)
-        self.hit_switch_and_run('s_trough2', 1)
+    def launch_ball(self):
+        # should be a ball to launch
+        self.assert_switch_state('s_plunger_lane', True)
 
-        # ball moves from trough 4 to trough 3
-        self.release_switch_and_run('s_trough4', 1)
-        self.hit_switch_and_run('s_trough3', 1)
-
-        # ball moves from trough 5 to trough 4
-        self.release_switch_and_run('s_trough5', 1)
-        self.hit_switch_and_run('s_trough4', 1)
-
-        # ball moves from trough 6 to trough 5
-        self.release_switch_and_run('s_trough6', 1)
-        self.hit_switch_and_run('s_trough5', 1)
+        self.release_switch_and_run('s_plunger_lane', 1)
 
     def add_player(self):
         prev_players = self.machine.game.num_players
@@ -64,12 +52,27 @@ class TestCase(MpfMachineTestCase):
         self.advance_time_and_run()
         self.assertEqual(prev_players + 1, self.machine.game.num_players)
 
+    def assert_switch_state(self, name, state):
+        self.assertSwitchState(name, state)
+
     def drain_ball(self):
-        self.release_switch_and_run('s_plunger_lane', 1)
+        # must launch ball first
+        self.assert_switch_state('s_plunger_lane', False)
+
+        # trough cannot be full
+        self.assert_switch_state('s_trough6', False)
+
+        # put ball in trough
         self.hit_switch_and_run('s_trough6', 1)
+
+        # eject ball because this happens automatically
+        self.eject_ball_from_trough()
 
     def assert_player_number(self, number):
         self.assertEqual(number, self.machine.game.player.index + 1)
 
     def assert_mode_running(self, mode_name):
         self.assertModeRunning(mode_name)
+
+    def assert_mode_not_running(self, mode_name):
+        self.assertModeNotRunning(mode_name)
