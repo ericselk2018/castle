@@ -1,6 +1,6 @@
 events:
   game_ended: 0
-  game_started: 39
+  game_started: 42
 player:
   score:
     average: 0
@@ -8,25 +8,27 @@ player:
     total: 0
 shots:
   skill_shot_1: 2
+  skill_shot_2: 1
+  skill_shot_4: 1
   top_lane_1: 42
-  top_lane_2: 13
+  top_lane_2: 14
   top_lane_3: 18
-  top_lane_4: 17
+  top_lane_4: 18
 switches:
   s_launch_button: 0
   s_left_flipper: 124
-  s_plunger_lane: 50
+  s_plunger_lane: 54
   s_right_flipper: 185
   s_right_inlane: 28
-  s_start: 570
+  s_start: 571
   s_top_lane_1: 42
-  s_top_lane_2: 13
+  s_top_lane_2: 14
   s_top_lane_3: 18
-  s_top_lane_4: 17
-  s_trough1: 30
-  s_trough2: 8
-  s_trough3: 6
-  s_trough4: 7
-  s_trough5: 9
-  s_trough6: 11
+  s_top_lane_4: 18
+  s_trough1: 33
+  s_trough2: 9
+  s_trough3: 7
+  s_trough4: 8
+  s_trough5: 10
+  s_trough6: 14
   s_trough_jam: 0
