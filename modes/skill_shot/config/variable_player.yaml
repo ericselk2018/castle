@@ -1,5 +1,5 @@
 #config_version=5
 
 variable_player:
-  skill_shot_lit_hit:
+  skill_shot_group_lit_hit:
     score: 20_000

@@ -18,3 +18,4 @@ config:
   - slide_player.yaml
   - modes.yaml
   - lights.yaml
+  - shows.yaml

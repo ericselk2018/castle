@@ -33,9 +33,13 @@ switches:
     tags: playfield_active
   s_top_lane_1:
     number:
+    tags: playfield_active
   s_top_lane_2:
     number:
+    tags: playfield_active
   s_top_lane_3:
     number:
+    tags: playfield_active
   s_top_lane_4:
     number:
+    tags: playfield_active

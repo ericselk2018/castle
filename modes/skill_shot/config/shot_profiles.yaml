@@ -2,8 +2,13 @@
 
 shot_profiles:
   skill_shot_profile:
+    advance_on_hit: false
     states:
       - name: off
-        show: off
+        show:
       - name: lit
-        show: flash
+        show: flash_colors
+        speed: 3
+        show_tokens:
+          color1: red
+          color2: stop

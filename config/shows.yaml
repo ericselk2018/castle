@@ -1,0 +1,24 @@
+#config_version=5
+
+shows:
+  flash_colors:
+      - duration: 1
+        lights:
+          (light):
+            color: (color1)
+          (lights):
+            color: (color1)
+          (led):
+            color: (color1)
+          (leds):
+            color: (color1)
+      - duration: 1
+        lights:
+          (light):
+            color: (color2)
+          (lights):
+            color: (color2)
+          (led):
+            color: (color2)
+          (leds):
+            color: (color2)

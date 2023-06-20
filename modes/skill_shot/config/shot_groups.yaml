@@ -3,6 +3,7 @@
 shot_groups:
   skill_shot_group:
     shots: skill_shot_1, skill_shot_2, skill_shot_3, skill_shot_4
+    reset_events: mode_skill_shot_stopped
     disable_rotation_events: s_plunger_lane_inactive
     rotate_left_events: s_left_flipper_active
     rotate_right_events: s_right_flipper_active

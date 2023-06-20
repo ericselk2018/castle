@@ -4,5 +4,7 @@ shot_groups:
   top_lane_group:
     shots: top_lane_1, top_lane_2, top_lane_3, top_lane_4
     reset_events: top_lane_group_hit_complete
+    disable_rotation_events: mode_skill_shot_starting
+    enable_rotation_events: mode_skill_shot_stopped
     rotate_left_events: s_left_flipper_active
     rotate_right_events: s_right_flipper_active
