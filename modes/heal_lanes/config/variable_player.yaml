@@ -1,0 +1,5 @@
+#config_version=5
+
+variable_player:
+  heal_lane_group_hit_complete:
+    score: 100_000

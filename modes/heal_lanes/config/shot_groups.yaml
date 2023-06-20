@@ -1,0 +1,8 @@
+#config_version=5
+
+shot_groups:
+  heal_lane_group:
+    shots: heal_lane_1, heal_lane_2, heal_lane_3, heal_lane_4
+    reset_events: heal_lane_group_on_complete
+    rotate_left_events: s_left_flipper_active
+    rotate_right_events: s_right_flipper_active

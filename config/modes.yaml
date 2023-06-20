@@ -5,4 +5,6 @@ modes:
   - attract
   - skill_shot
   - top_lanes
+  - heal_lanes
+  - heal_ball_save
   - test

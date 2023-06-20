@@ -19,3 +19,4 @@ config:
   - modes.yaml
   - lights.yaml
   - shows.yaml
+  - autofire_coils.yaml

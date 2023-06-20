@@ -1,0 +1,8 @@
+#config_version=5
+
+autofire_coils:
+  heal_ball_save:
+    coil: c_heal_ball_save
+    switch: s_heal_ball_save
+    enable_events: mode_heal_ball_save_started
+    disable_events: mode_heal_ball_save_stopped

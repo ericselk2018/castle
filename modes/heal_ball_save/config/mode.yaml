@@ -1,0 +1,5 @@
+#config_version=5
+
+mode:
+  start_events: heal_lane_group_on_complete
+  stop_events: s_heal_ball_save_active

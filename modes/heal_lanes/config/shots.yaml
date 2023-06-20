@@ -1,0 +1,23 @@
+#config_version=5
+
+shots:
+  heal_lane_1:
+    switch: s_heal_lane_1
+    profile: heal_lane_profile
+    show_tokens:
+      led: l_heal_lane_1
+  heal_lane_2:
+    switch: s_heal_lane_2
+    profile: heal_lane_profile
+    show_tokens:
+      led: l_heal_lane_2
+  heal_lane_3:
+    switch: s_heal_lane_3
+    profile: heal_lane_profile
+    show_tokens:
+      led: l_heal_lane_3
+  heal_lane_4:
+    switch: s_heal_lane_4
+    profile: heal_lane_profile
+    show_tokens:
+      led: l_heal_lane_4

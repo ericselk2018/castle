@@ -17,3 +17,6 @@ coils:
   c_plunger:
     number:
     default_pulse_ms: 20
+  c_heal_ball_save:
+    number:
+    default_pulse_ms: 20

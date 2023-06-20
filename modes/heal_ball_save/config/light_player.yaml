@@ -1,0 +1,6 @@
+#config_version=5
+
+light_player:
+  mode_heal_ball_save_started:
+    l_heal_ball_save:
+      color: on

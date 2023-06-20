@@ -23,12 +23,19 @@ switches:
     number:
   s_plunger_lane:
     number:
-  s_launch_button:
-    number:
   s_start:
     number:
     tags: start
-  s_right_inlane:
+  s_heal_lane_1:
+    number:
+    tags: playfield_active
+  s_heal_lane_2:
+    number:
+    tags: playfield_active
+  s_heal_lane_3:
+    number:
+    tags: playfield_active
+  s_heal_lane_4:
     number:
     tags: playfield_active
   s_top_lane_1:
@@ -43,3 +50,6 @@ switches:
   s_top_lane_4:
     number:
     tags: playfield_active
+  s_heal_ball_save:
+    number:
+    events_when_activated: s_heal_ball_save_active

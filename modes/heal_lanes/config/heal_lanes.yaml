@@ -1,0 +1,8 @@
+#config_version=5
+
+config:
+  - mode.yaml
+  - shot_profiles.yaml
+  - shot_groups.yaml
+  - shots.yaml
+  - variable_player.yaml
