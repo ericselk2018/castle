@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T21:27:30.795Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.0" etag="2gaTXERkQVEyCJFAG_us" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T00:45:14.048Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VMyMV8rJ_s54K7FSzfUM" version="21.5.0" type="github">
   <diagram name="Page-1" id="EKj3SEJUbLINvE7iRrej">
-    <mxGraphModel>
+    <mxGraphModel dx="1347" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-1" value="Drain&lt;br&gt;Moat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-2" value="Quench&lt;br&gt;Fire" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-3" value="Ram&lt;br&gt;Gate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-4" value="Scale&lt;br&gt;Walls" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="244" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-5" value="Hold&lt;br&gt;Left" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="318" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-6" value="Hold&lt;br&gt;Right" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="392" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-7" value="Catapult&lt;br&gt;Assault" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="466" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-8" value="Hold&lt;br&gt;Side&lt;br&gt;Gate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="540" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-9" value="Hold&lt;br&gt;Rear&lt;br&gt;Gate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="614" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAUTjzFrVfuf4F_yL7Rc-11" value="Archer&lt;br&gt;Assault" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="62" y="688" width="70" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
