@@ -19,3 +19,5 @@ lights:
     number:
   l_heal_ball_save:
     number:
+  l_start_button:
+    number:

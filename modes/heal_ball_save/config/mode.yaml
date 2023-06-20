@@ -3,3 +3,4 @@
 mode:
   start_events: heal_lane_group_on_complete
   stop_events: s_heal_ball_save_active
+  restart_on_next_ball: true

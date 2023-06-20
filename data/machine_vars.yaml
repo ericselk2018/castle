@@ -6,3 +6,7 @@ player1_score:
   expire: null
   expire_secs: null
   value: 0
+player2_score:
+  expire: null
+  expire_secs: null
+  value: 0
