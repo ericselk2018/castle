@@ -2,5 +2,5 @@
 
 variable_player:
   top_lane_group_hit_complete:
-    score: 10000
+    score: 100_000
     bonus_multiplier: 1
