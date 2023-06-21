@@ -4,4 +4,5 @@ config:
   - mode.yaml
   - slide_player.yaml
   - variable_player.yaml
-  - slides.yaml
+  - widgets.yaml
+  - widget_player.yaml

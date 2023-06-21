@@ -1,0 +1,59 @@
+#config_version=5
+
+widget_player:
+  mode_base_started{player == 1}:
+    player_1_text:
+      widget_settings:
+        color: green
+    player_1_score:
+      widget_settings:
+        color: green
+  mode_base_started{player != 1}:
+    player_1_text:
+      widget_settings:
+        color: white
+    player_1_score:
+      widget_settings:
+        color: white
+  mode_base_started{player == 2}:
+    player_2_text:
+      widget_settings:
+        color: green
+    player_2_score:
+      widget_settings:
+        color: green
+  mode_base_started{player != 2}:
+    player_2_text:
+      widget_settings:
+        color: white
+    player_2_score:
+      widget_settings:
+        color: white
+  mode_base_started{player == 3}:
+    player_3_text:
+      widget_settings:
+        color: green
+    player_3_score:
+      widget_settings:
+        color: green
+  mode_base_started{player != 3}:
+    player_3_text:
+      widget_settings:
+        color: white
+    player_3_score:
+      widget_settings:
+        color: white
+  mode_base_started{player == 4}:
+    player_4_text:
+      widget_settings:
+        color: green
+    player_4_score:
+      widget_settings:
+        color: green
+  mode_base_started{player != 4}:
+    player_4_text:
+      widget_settings:
+        color: white
+    player_4_score:
+      widget_settings:
+        color: white

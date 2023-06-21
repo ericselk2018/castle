@@ -1,0 +1,67 @@
+#config_version=5
+
+widgets:
+  player_1_text:
+    - type: text
+      text: Player 1
+      x: 50
+      y: top-20
+      anchor_x: left
+      anchor_y: top
+  player_1_score:
+    - type: text
+      text: (player1|score)
+      number_grouping: true
+      min_digits: 4
+      x: right-50
+      y: top-20
+      anchor_x: right
+      anchor_y: top
+  player_2_text:
+    - type: text
+      text: Player 2
+      x: 50
+      y: top-220
+      anchor_x: left
+      anchor_y: top
+  player_2_score:
+    - type: text
+      text: (player2|score)
+      number_grouping: true
+      min_digits: 4
+      x: right-50
+      y: top-220
+      anchor_x: right
+      anchor_y: top
+  player_3_text:
+    - type: text
+      text: Player 3
+      x: 50
+      y: top-420
+      anchor_x: left
+      anchor_y: top
+  player_3_score:
+    - type: text
+      text: (player3|score)
+      number_grouping: true
+      min_digits: 4
+      x: right-50
+      y: top-420
+      anchor_x: right
+      anchor_y: top
+  player_4_text:
+    - type: text
+      text: Player 3
+      x: 50
+      y: top-620
+      anchor_x: left
+      anchor_y: top
+  player_4_score:
+    - type: text
+      text: (player4|score)
+      number_grouping: true
+      min_digits: 4
+      x: right-50
+      y: top-620
+      anchor_x: right
+      anchor_y: top

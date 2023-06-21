@@ -7,3 +7,5 @@ variable_player:
     score: 100
   s_left_flipper_active:
     score: 1000
+  player_turn_started:
+    color: green
