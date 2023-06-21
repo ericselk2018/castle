@@ -6,8 +6,18 @@ slides:
       - type: text
         text: Castle Seige
         style: large
+        y: 60%
       - type: text
         text: by Eric Selk
         style: tiny
-        y: 50
+        y: 140
         anchor_y: bottom
+      - type: image
+        image: fast
+        x: 300
+        y: 200
+        scale: 2
+      - type: image
+        image: mission
+        x: right-300
+        y: 200

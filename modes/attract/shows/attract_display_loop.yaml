@@ -1,23 +1,33 @@
 #show_version=5
 
-- duration: 3s
+- duration: 2s
   slides:
     welcome_slide:
       widgets:
         - type: text
           text: Castle Seige
           style: large
+          y: 60%
         - type: text
           text: by Eric Selk
           style: tiny
-          y: 50
+          y: 140
           anchor_y: bottom
+        - type: image
+          image: fast
+          x: 300
+          y: 200
+          scale: 2
+        - type: image
+          image: mission
+          x: right-300
+          y: 200
       transition:
         type: move_in
         duration: 1s
         direction: bottom
 
-- duration: 3s
+- duration: 2s
   slides:
     press_start:
       widgets:
@@ -28,18 +38,38 @@
         duration: 1s
         direction: right
 
-- duration: 3s
+- duration: 4s
   slides:
     last_game_score_slide:
       widgets:
       - type: text
-        text: Last Game
-        y: 60%
+        text: "Last\nGame"
+        y: 50%
+        x: 20%
       - type: text
         text: (machine|player1_score)
         number_grouping: true
-        min_digits: 2
+        min_digits: 4
+        y: 80%
+        x: 65%
+      - type: text
+        text: (machine|player2_score)
+        number_grouping: true
+        min_digits: 4
+        y: 60%
+        x: 65%
+      - type: text
+        text: (machine|player3_score)
+        number_grouping: true
+        min_digits: 4
         y: 40%
+        x: 65%
+      - type: text
+        text: (machine|player4_score)
+        number_grouping: true
+        min_digits: 4
+        y: 20%
+        x: 65%
       transition:
         type: move_in
         duration: 1s

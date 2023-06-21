@@ -8,5 +8,5 @@ widget_styles:
     font_size: 300
     font_name: dots
   tiny:
-    font_size: 50
+    font_size: 100
     font_name: dots
