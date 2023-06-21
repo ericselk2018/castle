@@ -11,3 +11,4 @@ modes:
   - qualify_for_select_quest
   - select_quest
   - quest_attack_left
+  - quest_attack_right

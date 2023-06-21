@@ -5,6 +5,9 @@ light:
     size: 0.05
     x: 0.40437635504208413
     y: 0.796319018404908
+  l_attack_right_achievement:
+    x: 0.5326612676761247
+    y: 0.796319018404908
   l_front_gate:
     rotation: 340
     shape: ARROW

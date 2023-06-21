@@ -6,5 +6,12 @@ achievements:
       led: l_attack_left_achievement
     show_when_started: flash
     show_when_completed: on
-    complete_events: mode_quest_attack_left_stopped
+    complete_events: quest_attack_left_complete
     start_events: mode_quest_attack_left_started
+  attack_right:
+    show_tokens:
+      led: l_attack_right_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: quest_attack_right_complete
+    start_events: mode_quest_attack_right_started

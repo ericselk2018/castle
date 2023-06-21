@@ -9,4 +9,4 @@ player1_score:
 player2_score:
   expire: null
   expire_secs: null
-  value: 3020000
+  value: 3000000
