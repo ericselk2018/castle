@@ -1,6 +1,6 @@
 events:
   game_ended: 3
-  game_started: 231
+  game_started: 250
 player:
   score:
     average: 755000.0
@@ -31,10 +31,10 @@ switches:
   s_heal_lane_4: 14
   s_launch_button: 0
   s_left_flipper: 193
-  s_plunger_lane: 281
+  s_plunger_lane: 293
   s_right_flipper: 391
   s_right_inlane: 28
-  s_start: 685
+  s_start: 691
   s_top_lane_1: 84
   s_top_lane_2: 36
   s_top_lane_3: 53
