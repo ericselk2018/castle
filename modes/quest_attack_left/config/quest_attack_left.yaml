@@ -3,4 +3,4 @@
 config:
   - mode.yaml
   - shots.yaml
-  - shot_groups.yaml
+  - event_player.yaml

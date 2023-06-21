@@ -1,0 +1,13 @@
+#config_version=5
+
+shots:
+  select_quest_attack_left:
+    switch: s_left_shot_lane
+    profile: lit_flash
+    show_tokens:
+      led: l_left_shot_lane
+  select_quest_attack_right:
+    switch: s_right_shot_lane
+    profile: lit_flash
+    show_tokens:
+      led: l_right_shot_lane

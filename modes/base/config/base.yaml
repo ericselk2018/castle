@@ -6,3 +6,4 @@ config:
   - variable_player.yaml
   - widgets.yaml
   - widget_player.yaml
+  - achievements.yaml

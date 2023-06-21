@@ -1,0 +1,5 @@
+#config_version=5
+
+shot_groups:
+  select_quest_group:
+    shots: select_quest_attack_left, select_quest_attack_right

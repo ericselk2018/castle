@@ -23,3 +23,9 @@ lights:
     number:
   l_front_gate:
     number:
+  l_left_shot_lane:
+    number:
+  l_right_shot_lane:
+    number:
+  l_attack_left_achievement:
+    number:

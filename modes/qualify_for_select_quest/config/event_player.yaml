@@ -1,0 +1,4 @@
+#config_version=5
+
+event_player:
+  s_front_gate_active: qualified_for_select_quest

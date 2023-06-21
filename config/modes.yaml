@@ -10,3 +10,4 @@ modes:
   - test
   - qualify_for_select_quest
   - select_quest
+  - quest_attack_left

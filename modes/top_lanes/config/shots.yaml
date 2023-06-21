@@ -3,21 +3,21 @@
 shots:
   top_lane_1:
     switch: s_top_lane_1
-    profile: top_lane_profile
+    profile: off_then_on_when_hit
     show_tokens:
       led: l_top_lane_1
   top_lane_2:
     switch: s_top_lane_2
-    profile: top_lane_profile
+    profile: off_then_on_when_hit
     show_tokens:
       led: l_top_lane_2
   top_lane_3:
     switch: s_top_lane_3
-    profile: top_lane_profile
+    profile: off_then_on_when_hit
     show_tokens:
       led: l_top_lane_3
   top_lane_4:
     switch: s_top_lane_4
-    profile: top_lane_profile
+    profile: off_then_on_when_hit
     show_tokens:
       led: l_top_lane_4

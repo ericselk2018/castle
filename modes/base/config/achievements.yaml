@@ -1,0 +1,10 @@
+#config_version=5
+
+achievements:
+  attack_left:
+    show_tokens:
+      led: l_attack_left_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: mode_quest_attack_left_stopped
+    start_events: mode_quest_attack_left_started

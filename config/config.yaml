@@ -22,3 +22,4 @@ config:
   - autofire_coils.yaml
   - window.yaml
   - widget_styles.yaml
+  - shot_profiles.yaml

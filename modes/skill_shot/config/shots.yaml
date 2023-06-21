@@ -4,21 +4,21 @@ shots:
   skill_shot_1:
     advance_events: mode_skill_shot_started
     switch: s_top_lane_1
-    profile: skill_shot_profile
+    profile: off_then_lit_flash_keeping_current_color
     show_tokens:
       led: l_top_lane_1
   skill_shot_2:
     switch: s_top_lane_2
-    profile: skill_shot_profile
+    profile: off_then_lit_flash_keeping_current_color
     show_tokens:
       led: l_top_lane_2
   skill_shot_3:
     switch: s_top_lane_3
-    profile: skill_shot_profile
+    profile: off_then_lit_flash_keeping_current_color
     show_tokens:
       led: l_top_lane_3
   skill_shot_4:
     switch: s_top_lane_4
-    profile: skill_shot_profile
+    profile: off_then_lit_flash_keeping_current_color
     show_tokens:
       led: l_top_lane_4

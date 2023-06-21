@@ -1,5 +1,6 @@
 #config_version=5
 
 mode:
-  start_events: mode_qualify_for_select_quest_stopped
-  # stop_events: 
+  start_events: qualified_for_select_quest
+  stop_events: select_quest_group_hit
+  restart_on_next_ball: true

@@ -3,3 +3,4 @@
 config:
   - mode.yaml
   - show_player.yaml
+  - event_player.yaml

@@ -1,0 +1,4 @@
+#config_version=5
+
+event_player:
+  quest_attack_left_last_hit: quest_complete

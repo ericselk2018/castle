@@ -1,0 +1,9 @@
+#config_version=5
+
+shots:
+  quest_attack_left:
+    switch: s_left_shot_lane
+    profile: flash_faster_each_hit_for_3_hits
+    reset_events: quest_complete
+    show_tokens:
+      led: l_left_shot_lane

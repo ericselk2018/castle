@@ -57,3 +57,7 @@ switches:
     number:
     events_when_activated: s_front_gate_active
     tags: playfield_active
+  s_left_shot_lane:
+    number:
+  s_right_shot_lane:
+    number:
