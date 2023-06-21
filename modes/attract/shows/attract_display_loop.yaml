@@ -1,6 +1,6 @@
 #show_version=5
 
-- duration: 2s
+- duration: 3s
   slides:
     welcome_slide:
       widgets:
@@ -23,22 +23,24 @@
           x: right-300
           y: 200
       transition:
-        type: move_in
+        type: push
         duration: 1s
-        direction: bottom
+        direction: down
+        easing: out_bounce
 
-- duration: 2s
+- duration: 3s
   slides:
     press_start:
       widgets:
       - type: Text
         text: Press Start
       transition:
-        type: move_in
+        type: push
         duration: 1s
-        direction: right
+        direction: down
+        easing: out_bounce
 
-- duration: 4s
+- duration: 5s
   slides:
     last_game_score_slide:
       widgets:
@@ -71,6 +73,7 @@
         y: 20%
         x: 65%
       transition:
-        type: move_in
+        type: push
         duration: 1s
-        direction: top
+        direction: down
+        easing: out_bounce
