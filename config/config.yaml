@@ -20,3 +20,5 @@ config:
   - lights.yaml
   - shows.yaml
   - autofire_coils.yaml
+  - window.yaml
+  - widget_styles.yaml

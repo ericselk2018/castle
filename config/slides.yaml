@@ -1,12 +1,18 @@
 #config_version=5
 
 slides:
+  window_slide:
+    - type: display
+      effects:
+        - type: color_dmd
+          dot_filter: true
+      width: 1920
+      height: 1080
   welcome_slide:
     widgets:
       - type: text
-        text: PINBALL!
-        font_size: 50
-        color: red
-      - type: rectangle
-        width: 240
-        height: 60
+        text: Castle Seige
+      - type: text
+        text: by Eric Selk
+        style: tiny
+        y: 20

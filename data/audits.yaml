@@ -1,6 +1,6 @@
 events:
   game_ended: 2
-  game_started: 96
+  game_started: 167
 player:
   score:
     average: 0.0
@@ -14,11 +14,11 @@ shots:
   heal_lane_2: 12
   heal_lane_3: 15
   heal_lane_4: 12
-  skill_shot_1: 33
+  skill_shot_1: 34
   skill_shot_2: 15
   skill_shot_3: 28
   skill_shot_4: 5
-  top_lane_1: 76
+  top_lane_1: 77
   top_lane_2: 34
   top_lane_3: 51
   top_lane_4: 27
@@ -30,15 +30,15 @@ switches:
   s_heal_lane_4: 12
   s_launch_button: 0
   s_left_flipper: 184
-  s_plunger_lane: 131
+  s_plunger_lane: 204
   s_right_flipper: 391
   s_right_inlane: 28
-  s_start: 578
-  s_top_lane_1: 76
+  s_start: 583
+  s_top_lane_1: 77
   s_top_lane_2: 34
   s_top_lane_3: 51
   s_top_lane_4: 27
-  s_trough1: 67
+  s_trough1: 69
   s_trough2: 9
   s_trough3: 7
   s_trough4: 8
