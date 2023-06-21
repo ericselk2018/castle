@@ -1,0 +1,4 @@
+#config_version=5
+
+event_player:
+  quest_scale_walls_last_hit: quest_complete, quest_scale_walls_complete

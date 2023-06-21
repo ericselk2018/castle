@@ -27,7 +27,11 @@ lights:
     number:
   l_right_shot_lane:
     number:
+  l_left_ramp:
+    number:
   l_attack_left_achievement:
     number:
   l_attack_right_achievement:
     number:
+  l_scale_walls_achievement:
+    number: 

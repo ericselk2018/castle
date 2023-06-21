@@ -15,3 +15,10 @@ achievements:
     show_when_completed: on
     complete_events: quest_attack_right_complete
     start_events: mode_quest_attack_right_started
+  scale_walls:
+    show_tokens:
+      led: l_scale_walls_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: quest_scale_walls_complete
+    start_events: mode_quest_scale_walls_started

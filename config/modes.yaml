@@ -12,3 +12,4 @@ modes:
   - select_quest
   - quest_attack_left
   - quest_attack_right
+  - quest_scale_walls

@@ -1,0 +1,6 @@
+#config_version=5
+
+mode:
+  start_events: select_quest_scale_walls_hit
+  stop_events: quest_complete
+  restart_on_next_ball: true

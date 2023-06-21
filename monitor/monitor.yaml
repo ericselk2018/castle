@@ -3,11 +3,11 @@ device_size: 0.05
 light:
   l_attack_left_achievement:
     size: 0.05
-    x: 0.40437635504208413
-    y: 0.796319018404908
+    x: 0.38485473790212144
+    y: 0.7987730061349693
   l_attack_right_achievement:
-    x: 0.5326612676761247
-    y: 0.796319018404908
+    x: 0.5438164774703891
+    y: 0.8
   l_front_gate:
     rotation: 340
     shape: ARROW
@@ -29,6 +29,11 @@ light:
   l_heal_lane_4:
     x: 0.8363074095838717
     y: 0.7349693251533743
+  l_left_ramp:
+    rotation: 330
+    shape: ARROW
+    x: 0.315134676687969
+    y: 0.37668711656441717
   l_left_shot_lane:
     rotation: 330
     shape: ARROW
@@ -39,6 +44,9 @@ light:
     shape: ARROW
     x: 0.7870520633230629
     y: 0.4699386503067485
+  l_scale_walls_achievement:
+    x: 0.4657300089105383
+    y: 0.7987730061349693
   l_start_button:
     x: 0.11861386660931567
     y: 0.9595092024539877
@@ -80,6 +88,10 @@ switch:
     size: 0.05
     x: 0.022231403457679235
     y: 0.954601226993865
+  s_left_ramp:
+    rotation: 330
+    x: 0.2621474301652132
+    y: 0.3276073619631902
   s_left_shot_lane:
     x: 0.12793072407371342
     y: 0.4098159509202454

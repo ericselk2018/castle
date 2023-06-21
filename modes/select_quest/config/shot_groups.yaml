@@ -2,4 +2,7 @@
 
 shot_groups:
   select_quest_group:
-    shots: select_quest_attack_left, select_quest_attack_right
+    shots: 
+      - select_quest_attack_left
+      - select_quest_attack_right
+      - select_quest_scale_walls

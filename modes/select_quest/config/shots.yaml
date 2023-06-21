@@ -11,3 +11,8 @@ shots:
     profile: lit_flash
     show_tokens:
       led: l_right_shot_lane
+  select_quest_scale_walls:
+    switch: s_left_ramp
+    profile: lit_flash
+    show_tokens:
+      led: l_left_ramp
