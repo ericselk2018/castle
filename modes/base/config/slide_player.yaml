@@ -1,44 +1,94 @@
 #config_version=5
 
+widgets:
+  player_number:
+    - type: text
+      text:
+      x: 50
+      anchor_x: left
+      anchor_y: top
+  player_score:
+    - type: text
+      text:
+      number_grouping: true
+      min_digits: 4
+      x: right-50
+      anchor_x: right
+      anchor_y: top
+
+event_player:
+  mode_base_started{game.num_players > 1}: base_show_player_2
+  player_added{game.num_players > 1}: base_show_player_2
+  # mode_base_started: base_highlight_player_(player)
+  mode_base_started: 
+    base_highlight_player:
+      foo: (player)
+
+widget_player:
+  mode_base_started:
+    player_number:
+      key: player_number_1
+      widget_settings:
+        text: Player 1
+        y: top-20
+        color: white
+    player_score:
+      key: player_score_1
+      widget_settings:
+        text: (player1|score)
+        y: top-20
+        color: white
+  base_show_player_2:
+    player_number:
+      key: player_number_2
+      widget_settings:
+        text: Player 2
+        y: top-220
+        color: white
+    player_score:
+      key: player_score_2
+      widget_settings:
+        text: (player2|score)
+        y: top-220
+        color: white
+  base_highlight_player_1:
+    player_number:
+      action: update
+      key: player_number_1
+      widget_settings:
+        color: green
+    player_score:
+      action: update
+      key: player_score_1
+      widget_settings:
+        color: green
+  base_highlight_player_2:
+    player_number:
+      action: update
+      key: player_number_2
+      widget_settings:
+        color: green
+    player_score:
+      action: update
+      key: player_score_2
+      widget_settings:
+        color: green
+  base_highlight_player:
+    player_number:
+      action: update
+      key: player_number_(foo)
+      widget_settings:
+        color: green
+    player_score:
+      action: update
+      key: player_score_(foo)
+      widget_settings:
+        color: green
+
 slide_player:
   mode_base_started:
     widgets:
       - type: text
-        text: TEST
-      # - type: text
-      #   text: PLAYER 1
-      #   font_size: 15
-      #   y: top-2
-      #   x: 5
-      #   anchor_x: left
-      #   anchor_y: top
-      # - type: text
-      #   text: (player1|score)
-      #   number_grouping: true
-      #   min_digits: 4
-      #   font_size: 15
-      #   y: top-2
-      #   x: right-5
-      #   anchor_x: right
-      #   anchor_y: top
-      # - type: text
-      #   text: PLAYER 2
-      #   font_size: 15
-      #   y: top-17
-      #   x: 5
-      #   anchor_x: left
-      #   anchor_y: top
-      # - type: text
-      #   text: (player2|score)
-      #   number_grouping: true
-      #   min_digits: 4
-      #   font_size: 15
-      #   y: top-17
-      #   x: right-5
-      #   anchor_x: right
-      #   anchor_y: top
-      # - type: text
-      #   text: BALL (ball)
-      #   y: 2
-      #   anchor_y: bottom
-      #   font_size: 15
+        text: BALL (ball)
+        y: 20
+        anchor_y: bottom

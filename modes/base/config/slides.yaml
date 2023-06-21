@@ -1,0 +1,19 @@
+#config_version=5
+
+slides:
+  foo:
+      widgets:
+      - type: text
+        text: PLAYER 1
+        y: top-20
+        x: 50
+        anchor_x: left
+        anchor_y: top
+  foo2:
+      widgets:
+      - type: text
+        text: PLAYER 2
+        y: top-220
+        x: 50
+        anchor_x: left
+        anchor_y: top

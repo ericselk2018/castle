@@ -4,10 +4,3 @@ displays:
   window:
     width: 1920
     height: 1080
-  dmd:
-    width: 128 
-    height: 72
-    default: true
-    round_anchor_x: left
-    round_anchor_y: bottom
-    

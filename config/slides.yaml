@@ -1,18 +1,13 @@
 #config_version=5
 
 slides:
-  window_slide:
-    - type: display
-      effects:
-        - type: color_dmd
-          dot_filter: true
-      width: 1920
-      height: 1080
   welcome_slide:
     widgets:
       - type: text
         text: Castle Seige
+        style: large
       - type: text
         text: by Eric Selk
         style: tiny
-        y: 20
+        y: 50
+        anchor_y: bottom

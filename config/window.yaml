@@ -1,9 +1,9 @@
 #config_version=5
 
 window:
-  # width: 480
-  # height: 270
-  # fullscreen: false
-  width: 1920
-  height: 1080
-  fullscreen: true
+  width: 480
+  height: 270
+  fullscreen: false
+  # width: 1920
+  # height: 1080
+  # fullscreen: true

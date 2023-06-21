@@ -1,8 +1,4 @@
 #config_version=5
 
 slide_player:
-  init_done: 
-    window_slide:
-      target: window
-    welcome_slide:
-      target: dmd
+  init_done: welcome_slide
