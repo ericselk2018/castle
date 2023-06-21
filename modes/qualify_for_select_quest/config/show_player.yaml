@@ -1,0 +1,9 @@
+#config_version=5
+
+show_player:
+  mode_qualify_for_select_quest_started: 
+    flash:
+      sync_ms: 1000
+      speed: 3
+      show_tokens:
+        led: l_front_gate

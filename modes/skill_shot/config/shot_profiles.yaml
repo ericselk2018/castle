@@ -9,6 +9,7 @@ shot_profiles:
       - name: lit
         show: flash_colors
         speed: 3
+        sync_ms: 1000
         show_tokens:
           color1: red
           color2: stop

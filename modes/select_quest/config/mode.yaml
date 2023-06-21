@@ -1,0 +1,5 @@
+#config_version=5
+
+mode:
+  start_events: mode_qualify_for_select_quest_stopped
+  # stop_events: 

@@ -53,3 +53,7 @@ switches:
   s_heal_ball_save:
     number:
     events_when_activated: s_heal_ball_save_active
+  s_front_gate:
+    number:
+    events_when_activated: s_front_gate_active
+    tags: playfield_active

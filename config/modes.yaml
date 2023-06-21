@@ -8,3 +8,5 @@ modes:
   - heal_lanes
   - heal_ball_save
   - test
+  - qualify_for_select_quest
+  - select_quest
