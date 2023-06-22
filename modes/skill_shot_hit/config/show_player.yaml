@@ -1,0 +1,7 @@
+#config_version=5
+
+show_player:
+  mode_skill_shot_hit_started: 
+    skill_shot_hit_show:
+      events_when_stopped: skill_shot_show_stopped
+      loops: 0

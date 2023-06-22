@@ -1,6 +1,6 @@
 events:
   game_ended: 10
-  game_started: 296
+  game_started: 306
 player:
   score:
     average: 2408000.0
@@ -27,11 +27,11 @@ shots:
   select_quest_attack_left: 30
   select_quest_attack_right: 6
   select_quest_scale_walls: 1
-  skill_shot_1: 66
+  skill_shot_1: 75
   skill_shot_2: 19
   skill_shot_3: 30
   skill_shot_4: 5
-  top_lane_1: 109
+  top_lane_1: 117
   top_lane_2: 40
   top_lane_3: 55
   top_lane_4: 27
@@ -46,12 +46,12 @@ switches:
   s_left_flipper: 225
   s_left_ramp: 4
   s_left_shot_lane: 103
-  s_plunger_lane: 393
+  s_plunger_lane: 403
   s_right_flipper: 391
   s_right_inlane: 28
   s_right_shot_lane: 14
   s_start: 711
-  s_top_lane_1: 109
+  s_top_lane_1: 119
   s_top_lane_2: 40
   s_top_lane_3: 55
   s_top_lane_4: 27

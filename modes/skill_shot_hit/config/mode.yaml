@@ -1,0 +1,6 @@
+#config_version=5
+
+mode:
+  start_events: skill_shot_group_lit_hit
+  stop_events: skill_shot_show_stopped
+  priority: 1000  

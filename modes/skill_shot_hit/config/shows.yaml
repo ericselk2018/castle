@@ -1,0 +1,7 @@
+#config_version=5
+
+shows:
+  skill_shot_hit_show:
+    - duration: 3s
+      lights:
+        "*": off
