@@ -63,3 +63,12 @@ switches:
     number:
   s_left_ramp:
     number:
+  s_mob_1:
+    number:
+  s_mob_2:
+    number:
+  s_mob_3:
+    number:
+  s_side_gate:
+    number: 
+    events_when_activated: s_side_gate_active

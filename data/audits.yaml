@@ -1,6 +1,6 @@
 events:
   game_ended: 10
-  game_started: 306
+  game_started: 307
 player:
   score:
     average: 2408000.0
@@ -17,45 +17,45 @@ player:
     - 3000000
     total: 15
 shots:
-  heal_lane_1: 14
-  heal_lane_2: 15
-  heal_lane_3: 20
-  heal_lane_4: 15
+  heal_lane_1: 15
+  heal_lane_2: 17
+  heal_lane_3: 22
+  heal_lane_4: 16
   quest_attack_left: 69
   quest_attack_right: 7
-  quest_scale_walls: 3
+  quest_scale_walls: 6
   select_quest_attack_left: 30
   select_quest_attack_right: 6
-  select_quest_scale_walls: 1
-  skill_shot_1: 75
+  select_quest_scale_walls: 2
+  skill_shot_1: 76
   skill_shot_2: 19
-  skill_shot_3: 30
+  skill_shot_3: 31
   skill_shot_4: 5
-  top_lane_1: 117
-  top_lane_2: 40
-  top_lane_3: 55
-  top_lane_4: 27
+  top_lane_1: 118
+  top_lane_2: 42
+  top_lane_3: 58
+  top_lane_4: 28
 switches:
-  s_front_gate: 49
+  s_front_gate: 50
   s_heal_ball_save: 34
-  s_heal_lane_1: 14
-  s_heal_lane_2: 15
-  s_heal_lane_3: 20
-  s_heal_lane_4: 15
+  s_heal_lane_1: 15
+  s_heal_lane_2: 17
+  s_heal_lane_3: 22
+  s_heal_lane_4: 16
   s_launch_button: 0
   s_left_flipper: 225
-  s_left_ramp: 4
+  s_left_ramp: 8
   s_left_shot_lane: 103
-  s_plunger_lane: 403
-  s_right_flipper: 391
+  s_plunger_lane: 406
+  s_right_flipper: 393
   s_right_inlane: 28
   s_right_shot_lane: 14
   s_start: 711
-  s_top_lane_1: 119
-  s_top_lane_2: 40
-  s_top_lane_3: 55
-  s_top_lane_4: 27
-  s_trough1: 152
+  s_top_lane_1: 120
+  s_top_lane_2: 42
+  s_top_lane_3: 58
+  s_top_lane_4: 28
+  s_trough1: 154
   s_trough2: 9
   s_trough3: 7
   s_trough4: 8

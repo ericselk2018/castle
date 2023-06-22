@@ -14,3 +14,5 @@ modes:
   - quest_attack_right
   - quest_scale_walls
   - skill_shot_hit
+  - gather_mob
+  - attack_side_gate

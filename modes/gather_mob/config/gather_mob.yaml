@@ -1,0 +1,6 @@
+#config_version=5
+
+config:
+  - mode.yaml
+  - shot_groups.yaml
+  - shots.yaml
