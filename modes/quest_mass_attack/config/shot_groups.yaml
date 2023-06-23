@@ -2,4 +2,8 @@
 
 shot_groups:
   quest_mass_attack_group:
-    shots: quest_mass_attack_left_ramp, quest_mass_attack_left_shot_lane, quest_mass_attack_right_ramp, quest_mass_attack_right_shot_lane
+    shots: 
+      - quest_mass_attack_left_ramp
+      - quest_mass_attack_left_shot_lane
+      - quest_mass_attack_right_ramp
+      - quest_mass_attack_right_shot_lane
