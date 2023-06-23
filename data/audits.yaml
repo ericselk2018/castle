@@ -1,6 +1,6 @@
 events:
   game_ended: 10
-  game_started: 312
+  game_started: 319
 player:
   score:
     average: 2408000.0
@@ -17,6 +17,9 @@ player:
     - 3000000
     total: 15
 shots:
+  gather_mob_1: 11
+  gather_mob_2: 11
+  gather_mob_3: 13
   heal_lane_1: 15
   heal_lane_2: 17
   heal_lane_3: 22
@@ -51,10 +54,10 @@ switches:
   s_left_flipper: 225
   s_left_ramp: 30
   s_left_shot_lane: 121
-  s_mob_1: 0
-  s_mob_2: 0
-  s_mob_3: 0
-  s_plunger_lane: 411
+  s_mob_1: 11
+  s_mob_2: 11
+  s_mob_3: 13
+  s_plunger_lane: 418
   s_right_flipper: 393
   s_right_inlane: 28
   s_right_ramp: 14

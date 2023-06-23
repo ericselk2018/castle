@@ -1,5 +1,5 @@
 #config_version=5
 
 mode:
-  start_events: gather_mob_group_on_complete{multi_ball_active != True and side_gate_held != True}
+  start_events: gather_mob_group_on_complete{machine.multi_ball_active == 0 and machine.side_gate_held == 0}
   stop_events: s_side_gate_active, player_turn_ended, multi_ball_started
