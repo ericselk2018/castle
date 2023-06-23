@@ -16,3 +16,4 @@ modes:
   - skill_shot_hit
   - gather_mob
   - attack_side_gate
+  - quest_mass_attack

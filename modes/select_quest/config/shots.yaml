@@ -16,3 +16,8 @@ shots:
     profile: lit_flash
     show_tokens:
       led: l_left_ramp
+  select_quest_mass_attack:
+    switch: s_right_ramp
+    profile: lit_flash
+    show_tokens:
+      led: l_right_ramp

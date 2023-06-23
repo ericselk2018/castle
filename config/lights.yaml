@@ -29,11 +29,15 @@ lights:
     number:
   l_left_ramp:
     number:
+  l_right_ramp:
+    number:
   l_attack_left_achievement:
     number:
   l_attack_right_achievement:
     number:
   l_scale_walls_achievement:
+    number: 
+  l_mass_attack_achievement:
     number: 
   l_mob_1:
     number:

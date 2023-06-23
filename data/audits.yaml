@@ -1,6 +1,6 @@
 events:
   game_ended: 10
-  game_started: 307
+  game_started: 312
 player:
   score:
     average: 2408000.0
@@ -23,9 +23,14 @@ shots:
   heal_lane_4: 16
   quest_attack_left: 69
   quest_attack_right: 7
+  quest_mass_attack_left_ramp: 22
+  quest_mass_attack_left_shot_lane: 18
+  quest_mass_attack_right_ramp: 8
+  quest_mass_attack_right_shot_lane: 4
   quest_scale_walls: 6
   select_quest_attack_left: 30
   select_quest_attack_right: 6
+  select_quest_mass_attack: 6
   select_quest_scale_walls: 2
   skill_shot_1: 76
   skill_shot_2: 19
@@ -36,7 +41,7 @@ shots:
   top_lane_3: 58
   top_lane_4: 28
 switches:
-  s_front_gate: 50
+  s_front_gate: 56
   s_heal_ball_save: 34
   s_heal_lane_1: 15
   s_heal_lane_2: 17
@@ -44,12 +49,17 @@ switches:
   s_heal_lane_4: 16
   s_launch_button: 0
   s_left_flipper: 225
-  s_left_ramp: 8
-  s_left_shot_lane: 103
-  s_plunger_lane: 406
+  s_left_ramp: 30
+  s_left_shot_lane: 121
+  s_mob_1: 0
+  s_mob_2: 0
+  s_mob_3: 0
+  s_plunger_lane: 411
   s_right_flipper: 393
   s_right_inlane: 28
-  s_right_shot_lane: 14
+  s_right_ramp: 14
+  s_right_shot_lane: 18
+  s_side_gate: 0
   s_start: 711
   s_top_lane_1: 120
   s_top_lane_2: 42

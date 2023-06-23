@@ -26,6 +26,17 @@ shot_profiles:
       - name: last
         show: flash
         speed: 4
+  flash_on_hit_flash_faster_then_off:
+    advance_on_hit: true
+    states:
+      - name: one
+        show: flash
+        speed: 2
+      - name: two
+        show: flash
+        speed: 3
+      - name: last
+        show: off
   off_then_lit_flash_keeping_current_color:
     advance_on_hit: false
     states:

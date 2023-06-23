@@ -1,0 +1,27 @@
+#config_version=5
+
+shots:
+  quest_mass_attack_left_ramp:
+    switch: s_left_ramp
+    profile: flash_on_hit_flash_faster_then_off
+    reset_events: quest_complete
+    show_tokens:
+      led: l_left_ramp
+  quest_mass_attack_left_shot_lane:
+    switch: s_left_shot_lane
+    profile: flash_on_hit_flash_faster_then_off
+    reset_events: quest_complete
+    show_tokens:
+      led: l_left_shot_lane
+  quest_mass_attack_right_ramp:
+    switch: s_right_ramp
+    profile: flash_on_hit_flash_faster_then_off
+    reset_events: quest_complete
+    show_tokens:
+      led: l_right_ramp
+  quest_mass_attack_right_shot_lane:
+    switch: s_right_shot_lane
+    profile: flash_on_hit_flash_faster_then_off
+    reset_events: quest_complete
+    show_tokens:
+      led: l_right_shot_lane
