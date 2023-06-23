@@ -59,18 +59,26 @@ switches:
     tags: playfield_active
   s_left_shot_lane:
     number:
+    tags: playfield_active
   s_right_shot_lane:
     number:
+    tags: playfield_active
   s_left_ramp:
     number:
+    tags: playfield_active
   s_right_ramp:
     number:
+    tags: playfield_active
   s_mob_1:
     number:
+    tags: playfield_active
   s_mob_2:
     number:
+    tags: playfield_active
   s_mob_3:
     number:
+    tags: playfield_active
   s_side_gate:
     number: 
-    events_when_activated: s_side_gate_active
+  s_rear_gate:
+    number: 

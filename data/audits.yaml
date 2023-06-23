@@ -1,6 +1,6 @@
 events:
   game_ended: 10
-  game_started: 319
+  game_started: 338
 player:
   score:
     average: 2408000.0
@@ -17,11 +17,11 @@ player:
     - 3000000
     total: 15
 shots:
-  gather_mob_1: 11
-  gather_mob_2: 11
-  gather_mob_3: 13
+  gather_mob_1: 37
+  gather_mob_2: 36
+  gather_mob_3: 37
   heal_lane_1: 15
-  heal_lane_2: 17
+  heal_lane_2: 70
   heal_lane_3: 22
   heal_lane_4: 16
   quest_attack_left: 69
@@ -30,11 +30,11 @@ shots:
   quest_mass_attack_left_shot_lane: 18
   quest_mass_attack_right_ramp: 8
   quest_mass_attack_right_shot_lane: 4
-  quest_scale_walls: 6
-  select_quest_attack_left: 30
+  quest_scale_walls: 9
+  select_quest_attack_left: 31
   select_quest_attack_right: 6
   select_quest_mass_attack: 6
-  select_quest_scale_walls: 2
+  select_quest_scale_walls: 3
   skill_shot_1: 76
   skill_shot_2: 19
   skill_shot_3: 31
@@ -44,34 +44,35 @@ shots:
   top_lane_3: 58
   top_lane_4: 28
 switches:
-  s_front_gate: 56
+  s_front_gate: 59
   s_heal_ball_save: 34
   s_heal_lane_1: 15
-  s_heal_lane_2: 17
+  s_heal_lane_2: 70
   s_heal_lane_3: 22
   s_heal_lane_4: 16
   s_launch_button: 0
   s_left_flipper: 225
-  s_left_ramp: 30
-  s_left_shot_lane: 121
-  s_mob_1: 11
-  s_mob_2: 11
-  s_mob_3: 13
-  s_plunger_lane: 418
+  s_left_ramp: 34
+  s_left_shot_lane: 122
+  s_mob_1: 37
+  s_mob_2: 36
+  s_mob_3: 37
+  s_plunger_lane: 457
+  s_rear_gate: 4
   s_right_flipper: 393
   s_right_inlane: 28
   s_right_ramp: 14
   s_right_shot_lane: 18
-  s_side_gate: 0
+  s_side_gate: 16
   s_start: 711
   s_top_lane_1: 120
   s_top_lane_2: 42
   s_top_lane_3: 58
   s_top_lane_4: 28
-  s_trough1: 154
+  s_trough1: 184
   s_trough2: 9
   s_trough3: 7
-  s_trough4: 8
-  s_trough5: 10
-  s_trough6: 14
+  s_trough4: 12
+  s_trough5: 19
+  s_trough6: 20
   s_trough_jam: 0

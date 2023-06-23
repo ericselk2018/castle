@@ -1,5 +1,8 @@
 #config_version=5
 
+mpf:
+  report_crashes: never
+
 config:
   - switches.yaml
   - coils.yaml

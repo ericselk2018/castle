@@ -1,0 +1,11 @@
+#config_version=5
+
+multiball_locks:
+  side_gate:
+    balls_to_lock: 1
+    lock_devices: bd_side_gate
+    locked_ball_counting_strategy: physical_only
+  rear_gate:
+    balls_to_lock: 1
+    lock_devices: bd_rear_gate
+    locked_ball_counting_strategy: physical_only

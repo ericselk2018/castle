@@ -1,0 +1,11 @@
+#config_version=5
+
+ball_saves:
+  side_gate:
+    ball_locks: bd_side_gate
+    only_last_ball: true
+    enable_events: multiball_lock_side_gate_locked_ball
+  rear_gate:
+    ball_locks: bd_rear_gate
+    only_last_ball: true
+    enable_events: multiball_lock_rear_gate_locked_ball

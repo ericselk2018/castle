@@ -20,3 +20,21 @@ coils:
   c_heal_ball_save:
     number:
     default_pulse_ms: 20
+  c_side_gate:
+    number:
+    default_pulse_ms: 20
+  c_side_gate_post:
+    number:
+    allow_enable: true
+    enable_events: mode_attack_side_gate_stopped, game_started
+    disable_events: mode_attack_side_gate_started
+    default_hold_power: 0.1
+  c_rear_gate:
+    number:
+    default_pulse_ms: 20
+  c_rear_gate_post:
+    number:
+    allow_enable: true
+    enable_events: mode_attack_rear_gate_stopped, game_started
+    disable_events: mode_attack_rear_gate_started
+    default_hold_power: 0.1

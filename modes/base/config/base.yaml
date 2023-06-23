@@ -7,3 +7,5 @@ config:
   - widgets.yaml
   - widget_player.yaml
   - achievements.yaml
+  - multiball_locks.yaml
+  - ball_saves.yaml

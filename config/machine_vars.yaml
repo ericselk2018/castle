@@ -3,5 +3,3 @@
 machine_vars:
   multi_ball_active:
     initial_value: 0
-  side_gate_held:
-    initial_value: 0

@@ -9,7 +9,15 @@ ball_devices:
     eject_coil_jam_pulse: 15ms
     eject_targets: bd_plunger
     eject_timeouts: 3s
+    eject_events: ball_add_requested
   bd_plunger:
     ball_switches: s_plunger_lane
     mechanical_eject: true
     eject_timeouts: 5s
+  bd_side_gate:
+    ball_switches: s_side_gate
+    eject_coil: c_side_gate
+  bd_rear_gate:
+    ball_switches: s_rear_gate
+    eject_coil: c_rear_gate
+      
