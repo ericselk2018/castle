@@ -1,0 +1,18 @@
+#config_version=5
+
+shots:
+  mine_ore_1:
+    switch: s_ore_1
+    profile: off_then_on_when_hit
+    show_tokens:
+      led: l_ore_1
+  mine_ore_2:
+    switch: s_ore_2
+    profile: off_then_on_when_hit
+    show_tokens:
+      led: l_ore_2
+  mine_ore_3:
+    switch: s_ore_3
+    profile: off_then_on_when_hit
+    show_tokens:
+      led: l_ore_3

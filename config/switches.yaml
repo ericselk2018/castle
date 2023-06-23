@@ -82,3 +82,12 @@ switches:
     number: 
   s_rear_gate:
     number: 
+  s_ore_1:
+    number:
+    tags: playfield_active
+  s_ore_2:
+    number:
+    tags: playfield_active
+  s_ore_3:
+    number:
+    tags: playfield_active

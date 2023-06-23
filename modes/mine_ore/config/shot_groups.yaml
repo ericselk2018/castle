@@ -1,0 +1,6 @@
+#config_version=5
+
+shot_groups:
+  mine_ore_group:
+    shots: mine_ore_1, mine_ore_2, mine_ore_3
+    reset_events: mine_ore_group_on_complete

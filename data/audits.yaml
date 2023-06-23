@@ -1,6 +1,6 @@
 events:
   game_ended: 10
-  game_started: 338
+  game_started: 339
 player:
   score:
     average: 2408000.0
@@ -24,6 +24,9 @@ shots:
   heal_lane_2: 70
   heal_lane_3: 22
   heal_lane_4: 16
+  mine_ore_1: 2
+  mine_ore_2: 2
+  mine_ore_3: 2
   quest_attack_left: 69
   quest_attack_right: 7
   quest_mass_attack_left_ramp: 22
@@ -57,7 +60,10 @@ switches:
   s_mob_1: 37
   s_mob_2: 36
   s_mob_3: 37
-  s_plunger_lane: 457
+  s_ore_1: 2
+  s_ore_2: 2
+  s_ore_3: 2
+  s_plunger_lane: 458
   s_rear_gate: 4
   s_right_flipper: 393
   s_right_inlane: 28
