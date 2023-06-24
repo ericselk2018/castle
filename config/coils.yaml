@@ -38,3 +38,10 @@ coils:
     enable_events: mode_attack_rear_gate_stopped, game_started
     disable_events: mode_attack_rear_gate_started
     default_hold_power: 0.1
+  c_catapult_lock_post:
+    number:
+    allow_enable: true
+    enable_events: mode_load_catapult_started
+    disable_events: player_turn_ending
+    default_hold_power: 0.1
+    debug: true

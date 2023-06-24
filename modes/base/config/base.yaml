@@ -9,3 +9,4 @@ config:
   - achievements.yaml
   - multiball_locks.yaml
   - ball_saves.yaml
+  - multiballs.yaml

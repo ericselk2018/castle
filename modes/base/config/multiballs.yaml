@@ -1,0 +1,7 @@
+#config_version=5
+
+multiballs:
+  catapult:
+    ball_count: 4
+    ball_locks: bd_catapult
+    start_events: multiball_lock_catapult_full

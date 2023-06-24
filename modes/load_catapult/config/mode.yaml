@@ -1,0 +1,5 @@
+#config_version=5
+
+mode:
+  start_events: mine_ore_group_on_complete
+  stop_events: player_turn_ended, multiball_lock_catapult_full

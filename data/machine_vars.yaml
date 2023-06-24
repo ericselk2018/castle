@@ -2,7 +2,7 @@ master_volume:
   expire: null
   expire_secs: null
   value: 0.5
-multi_ball_active:
+player1_score:
   expire: null
   expire_secs: null
-  value: 0
+  value: 3000000

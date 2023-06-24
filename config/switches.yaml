@@ -68,7 +68,7 @@ switches:
     tags: playfield_active
   s_right_ramp:
     number:
-    tags: playfield_active
+    events_when_activated: s_right_ramp_active
   s_mob_1:
     number:
     tags: playfield_active
@@ -91,3 +91,9 @@ switches:
   s_ore_3:
     number:
     tags: playfield_active
+  s_catapult_1:
+    number: 
+  s_catapult_2:
+    number: 
+  s_catapult_3:
+    number: 

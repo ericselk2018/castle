@@ -9,3 +9,10 @@ multiball_locks:
     balls_to_lock: 1
     lock_devices: bd_rear_gate
     locked_ball_counting_strategy: physical_only
+  catapult:
+    balls_to_lock: 3
+    lock_devices: bd_catapult
+    empty_lock_devices_on_ball_end: true
+    locked_ball_counting_strategy: physical_only
+    enable_events: mode_load_catapult_started
+    disable_events: mode_load_catapult_stopped

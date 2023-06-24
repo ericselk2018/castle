@@ -9,7 +9,6 @@ ball_devices:
     eject_coil_jam_pulse: 15ms
     eject_targets: bd_plunger
     eject_timeouts: 3s
-    eject_events: ball_add_requested
   bd_plunger:
     ball_switches: s_plunger_lane
     mechanical_eject: true
@@ -20,4 +19,9 @@ ball_devices:
   bd_rear_gate:
     ball_switches: s_rear_gate
     eject_coil: c_rear_gate
-      
+  bd_catapult:
+    ball_switches: s_catapult_1, s_catapult_2, s_catapult_3
+    hold_coil: c_catapult_lock_post
+    # eject_all_events: mode_load_catapult_stopped
+    
+    
