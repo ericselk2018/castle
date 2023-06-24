@@ -1,7 +1,7 @@
 #config_version=5
 
 sound_player:
-  x_mode_attract_started:
+  mode_attract_started:
     background_loop:
       action: play
       loops: -1
