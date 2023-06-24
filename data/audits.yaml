@@ -1,6 +1,6 @@
 events:
   game_ended: 11
-  game_started: 357
+  game_started: 365
 player:
   score:
     average: 2445000.0
@@ -22,63 +22,71 @@ shots:
   gather_mob_3: 39
   heal_lane_1: 15
   heal_lane_2: 85
-  heal_lane_3: 38
-  heal_lane_4: 16
+  heal_lane_3: 39
+  heal_lane_4: 17
   mine_ore_1: 24
   mine_ore_2: 24
   mine_ore_3: 24
-  quest_attack_left: 69
-  quest_attack_right: 7
+  quest_attack_left: 72
+  quest_attack_right: 10
   quest_mass_attack_left_ramp: 22
   quest_mass_attack_left_shot_lane: 18
   quest_mass_attack_right_ramp: 8
   quest_mass_attack_right_shot_lane: 4
   quest_scale_walls: 9
-  select_quest_attack_left: 31
-  select_quest_attack_right: 6
+  select_quest_attack_left: 32
+  select_quest_attack_right: 7
+  select_quest_drain_moat_left: 3
   select_quest_mass_attack: 6
+  select_quest_quench_fire: 1
   select_quest_scale_walls: 3
-  skill_shot_1: 77
+  skill_shot_1: 79
   skill_shot_2: 19
   skill_shot_3: 31
   skill_shot_4: 5
-  top_lane_1: 119
-  top_lane_2: 42
-  top_lane_3: 58
-  top_lane_4: 28
+  top_lane_1: 123
+  top_lane_2: 46
+  top_lane_3: 62
+  top_lane_4: 32
 switches:
+  s_archer_1: 4
+  s_archer_2: 3
+  s_archer_3: 5
   s_catapult_1: 16
   s_catapult_2: 17
   s_catapult_3: 23
-  s_front_gate: 60
+  s_fire: 4
+  s_front_gate: 66
   s_heal_ball_save: 34
   s_heal_lane_1: 15
   s_heal_lane_2: 85
-  s_heal_lane_3: 38
-  s_heal_lane_4: 16
+  s_heal_lane_3: 39
+  s_heal_lane_4: 17
   s_launch_button: 0
-  s_left_flipper: 225
+  s_left_flipper: 226
   s_left_ramp: 34
-  s_left_shot_lane: 122
+  s_left_shot_lane: 126
+  s_moat_left: 7
+  s_moat_right: 5
   s_mob_1: 39
   s_mob_2: 38
   s_mob_3: 39
   s_ore_1: 27
   s_ore_2: 27
   s_ore_3: 27
-  s_plunger_lane: 535
+  s_plunger_lane: 543
   s_rear_gate: 5
-  s_right_flipper: 393
+  s_right_flipper: 394
   s_right_inlane: 28
   s_right_ramp: 43
-  s_right_shot_lane: 18
-  s_side_gate: 17
+  s_right_shot_lane: 22
+  s_side_gate: 18
   s_start: 711
-  s_top_lane_1: 121
-  s_top_lane_2: 42
-  s_top_lane_3: 58
-  s_top_lane_4: 28
-  s_trough1: 239
+  s_top_lane_1: 126
+  s_top_lane_2: 47
+  s_top_lane_3: 63
+  s_top_lane_4: 33
+  s_trough1: 240
   s_trough2: 15
   s_trough3: 19
   s_trough4: 17

@@ -1,0 +1,7 @@
+#config_version=5
+
+counters:
+  moat_spinner_rotations:
+    count_events: spinner_moat_spinner_hit
+    count_complete_value: 3
+    events_when_complete: quest_complete, quest_drain_moat_complete

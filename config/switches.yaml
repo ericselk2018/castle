@@ -97,3 +97,15 @@ switches:
     number: 
   s_catapult_3:
     number: 
+  s_moat_left:
+    number:
+  s_moat_right:
+    number:
+  s_fire:
+    number:
+  s_archer_1:
+    number:
+  s_archer_2:
+    number:
+  s_archer_3:
+    number:

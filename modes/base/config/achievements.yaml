@@ -29,3 +29,24 @@ achievements:
     show_when_completed: on
     complete_events: quest_mass_attack_complete
     start_events: mode_quest_mass_attack_started
+  drain_moat:
+    show_tokens:
+      led: l_drain_moat_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: quest_drain_moat_complete
+    start_events: mode_quest_drain_moat_started
+  quench_fire:
+    show_tokens:
+      led: l_quench_fire_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: quest_quench_fire_complete
+    start_events: mode_quest_quench_fire_started
+  archer_attack:
+    show_tokens:
+      led: l_archer_attack_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: archer_attack_complete
+    start_events: mode_archer_attack_started

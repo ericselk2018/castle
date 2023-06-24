@@ -1,0 +1,7 @@
+#config_version=5
+
+show_player:
+  mode_archer_attack_started: 
+    flash:
+      show_tokens:
+        leds: l_archer_1, l_archer_2, l_archer_3

@@ -21,7 +21,11 @@ lights:
     number:
   l_start_button:
     number:
-  l_front_gate:
+  l_front_gate_1:
+    number:
+  l_front_gate_2:
+    number:
+  l_front_gate_3:
     number:
   l_left_shot_lane:
     number:
@@ -56,4 +60,44 @@ lights:
   l_ore_3:
     number:
   l_catapult_lock:
+    number:
+  l_moat_left:
+    number:
+  l_moat_right:
+    number:
+  l_fire:
+    number:
+  l_archer_1:
+    number:
+  l_archer_2:
+    number:
+  l_archer_3:
+    number:
+  l_ball_save:
+    number:
+  l_archer_attack_achievement:
+    number: 
+  l_playfield_2:
+    number: 
+  l_playfield_3:
+    number: 
+  l_playfield_4:
+    number: 
+  l_bonus_2:
+    number: 
+  l_bonus_3:
+    number: 
+  l_bonus_4:
+    number: 
+  l_attack_front_gate_achievement_1:
+    number:
+  l_attack_front_gate_achievement_2:
+    number:
+  l_attack_front_gate_achievement_3:
+    number:
+  l_drain_moat_achievement:
+    number: 
+  l_quench_fire_achievement:
+    number: 
+  l_catapult_attack_achievement:
     number:

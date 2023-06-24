@@ -27,3 +27,4 @@ config:
   - widget_styles.yaml
   - shot_profiles.yaml
   - machine_vars.yaml
+  - spinners.yaml

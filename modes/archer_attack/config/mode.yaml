@@ -1,0 +1,6 @@
+#config_version=5
+
+mode:
+  start_events: top_lane_group_on_complete
+  stop_events: archer_attack_complete
+  restart_on_next_ball: true

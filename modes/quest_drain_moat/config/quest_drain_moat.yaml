@@ -1,0 +1,6 @@
+#config_version=5
+
+config:
+  - mode.yaml
+  - counters.yaml
+  - show_player.yaml

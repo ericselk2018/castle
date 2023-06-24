@@ -1,0 +1,7 @@
+#config_version=5
+
+counters:
+  archer_shots:
+    count_events: s_archer_1_active, s_archer_2_active, s_archer_3_active
+    count_complete_value: 3
+    events_when_complete: archer_attack_complete

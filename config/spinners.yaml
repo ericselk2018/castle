@@ -1,0 +1,8 @@
+#config_version=5
+
+spinners:
+  moat_spinner:
+    switches: s_moat_left, s_moat_right
+    labels: left, right
+  fire_spinner:
+    switch: s_fire

@@ -6,4 +6,4 @@ show_player:
       sync_ms: 1000
       speed: 3
       show_tokens:
-        led: l_front_gate
+        leds: l_front_gate_1, l_front_gate_2, l_front_gate_3

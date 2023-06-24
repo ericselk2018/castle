@@ -20,3 +20,6 @@ modes:
   - quest_mass_attack
   - mine_ore
   - load_catapult
+  - quest_drain_moat
+  - quest_quench_fire
+  - archer_attack

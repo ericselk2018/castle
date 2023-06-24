@@ -21,3 +21,18 @@ shots:
     profile: lit_flash
     show_tokens:
       led: l_right_ramp
+  select_quest_drain_moat_left:
+    switch: s_moat_left
+    profile: lit_flash
+    show_tokens:
+      led: l_moat_left
+  select_quest_drain_moat_right:
+    switch: s_moat_right
+    profile: lit_flash
+    show_tokens:
+      led: l_moat_right
+  select_quest_quench_fire:
+    switch: s_fire
+    profile: lit_flash
+    show_tokens:
+      led: l_fire
