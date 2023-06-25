@@ -1,0 +1,5 @@
+#config_version=5
+
+config:
+  - mode_settings.yaml
+  - slide_player.yaml

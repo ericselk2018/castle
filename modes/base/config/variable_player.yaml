@@ -5,6 +5,7 @@ variable_player:
     achievements_completed: 1
   quest_complete:
     quests_completed: 1
+    bonus_quests_completed: 1
   castle_taken:
     quests_completed:
       int: 0
@@ -12,3 +13,55 @@ variable_player:
     achievements_completed:
       int: 0
       action: set
+  s_left_ramp_active:
+    bonus_walls_scaled: 1
+  s_moat_left_active:
+    bonus_moats_drained: 1
+  s_moat_right_active:
+    bonus_moats_drained: 1
+  s_fire_active:
+    bonus_fires_quenched: 1
+  s_archer_1_active:
+    bonus_archer_shots: 1
+  s_archer_2_active:
+    bonus_archer_shots: 1
+  s_archer_3_active:
+    bonus_archer_shots: 1
+  s_ore_1_active:
+    bonus_ore_mined: 1
+  s_ore_2_active:
+    bonus_ore_mined: 1
+  s_ore_3_active:
+    bonus_ore_mined: 1
+  s_mob_1_active:
+    bonus_mobs_formed: 1
+  s_mob_2_active:
+    bonus_mobs_formed: 1
+  s_mob_3_active:
+    bonus_mobs_formed: 1
+  s_front_gate_active:
+    bonus_gates_hit: 1
+  s_side_gate_active:
+    bonus_gates_held: 1
+  s_rear_gate_active:
+    bonus_gates_held: 1
+  s_left_shot_lane_active:
+    bonus_sides_attacked: 1
+  s_right_shot_lane_active:
+    bonus_sides_attacked: 1
+  s_top_lane_1_active:
+    bonus_walls_built: 1
+  s_top_lane_2_active:
+    bonus_walls_built: 1
+  s_top_lane_3_active:
+    bonus_walls_built: 1
+  s_top_lane_4_active:
+    bonus_walls_built: 1
+  s_heal_lane_1_active:
+    bonus_heals_given: 1
+  s_heal_lane_2_active:
+    bonus_heals_given: 1
+  s_heal_lane_3_active:
+    bonus_heals_given: 1
+  s_heal_lane_4_active:
+    bonus_heals_given: 1

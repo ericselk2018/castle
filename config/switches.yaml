@@ -52,10 +52,10 @@ switches:
     tags: playfield_active
   s_heal_ball_save:
     number:
-    events_when_activated: s_heal_ball_save_active
+    # events_when_activated: s_heal_ball_save_active
   s_front_gate:
     number:
-    events_when_activated: s_front_gate_active
+    # events_when_activated: s_front_gate_active
     tags: playfield_active
   s_left_shot_lane:
     number:
@@ -66,9 +66,10 @@ switches:
   s_left_ramp:
     number:
     tags: playfield_active
+    # events_when_activated: s_left_ramp_active
   s_right_ramp:
     number:
-    events_when_activated: s_right_ramp_active
+    # events_when_activated: s_right_ramp_active
   s_mob_1:
     number:
     tags: playfield_active

@@ -1,6 +1,6 @@
 events:
   game_ended: 11
-  game_started: 410
+  game_started: 420
 player:
   score:
     average: 2445000.0
@@ -18,85 +18,85 @@ player:
     total: 16
 shots:
   final_battle: 9
-  gather_mob_1: 60
-  gather_mob_2: 60
-  gather_mob_3: 60
-  heal_lane_1: 26
-  heal_lane_2: 109
-  heal_lane_3: 62
-  heal_lane_4: 28
-  mine_ore_1: 35
-  mine_ore_2: 35
-  mine_ore_3: 35
+  gather_mob_1: 67
+  gather_mob_2: 64
+  gather_mob_3: 71
+  heal_lane_1: 31
+  heal_lane_2: 113
+  heal_lane_3: 66
+  heal_lane_4: 33
+  mine_ore_1: 42
+  mine_ore_2: 39
+  mine_ore_3: 43
   quest_attack_front_gate: 6
   quest_attack_front_gate_1: 48
   quest_attack_front_gate_2: 40
   quest_attack_front_gate_3: 34
   quest_attack_left: 183
   quest_attack_right: 37
-  quest_bonus: 129
+  quest_bonus: 131
   quest_mass_attack_left_ramp: 44
   quest_mass_attack_left_shot_lane: 41
   quest_mass_attack_right_ramp: 63
   quest_mass_attack_right_shot_lane: 27
-  quest_scale_walls: 39
+  quest_scale_walls: 42
   select_quest_attack_left: 70
   select_quest_attack_right: 17
   select_quest_drain_moat_left: 15
   select_quest_mass_attack: 28
-  select_quest_quench_fire: 11
-  select_quest_scale_walls: 13
+  select_quest_quench_fire: 13
+  select_quest_scale_walls: 14
   skill_shot_1: 80
   skill_shot_2: 19
   skill_shot_3: 31
   skill_shot_4: 5
-  top_lane_1: 131
-  top_lane_2: 53
-  top_lane_3: 69
-  top_lane_4: 39
+  top_lane_1: 139
+  top_lane_2: 60
+  top_lane_3: 73
+  top_lane_4: 44
 switches:
-  s_archer_1: 6
-  s_archer_2: 20
-  s_archer_3: 7
-  s_catapult_1: 24
-  s_catapult_2: 26
-  s_catapult_3: 32
-  s_fire: 50
-  s_front_gate: 260
-  s_heal_ball_save: 42
-  s_heal_lane_1: 26
-  s_heal_lane_2: 109
-  s_heal_lane_3: 62
-  s_heal_lane_4: 28
+  s_archer_1: 10
+  s_archer_2: 27
+  s_archer_3: 13
+  s_catapult_1: 26
+  s_catapult_2: 28
+  s_catapult_3: 35
+  s_fire: 65
+  s_front_gate: 270
+  s_heal_ball_save: 46
+  s_heal_lane_1: 31
+  s_heal_lane_2: 113
+  s_heal_lane_3: 66
+  s_heal_lane_4: 33
   s_launch_button: 0
   s_left_flipper: 226
-  s_left_ramp: 201
-  s_left_shot_lane: 316
-  s_moat_left: 65
-  s_moat_right: 5
-  s_mob_1: 60
-  s_mob_2: 60
-  s_mob_3: 60
-  s_ore_1: 38
-  s_ore_2: 38
-  s_ore_3: 38
-  s_plunger_lane: 633
-  s_rear_gate: 6
+  s_left_ramp: 261
+  s_left_shot_lane: 318
+  s_moat_left: 68
+  s_moat_right: 14
+  s_mob_1: 67
+  s_mob_2: 64
+  s_mob_3: 71
+  s_ore_1: 45
+  s_ore_2: 42
+  s_ore_3: 46
+  s_plunger_lane: 659
+  s_rear_gate: 11
   s_right_flipper: 406
   s_right_inlane: 28
-  s_right_ramp: 95
-  s_right_shot_lane: 88
-  s_side_gate: 19
+  s_right_ramp: 134
+  s_right_shot_lane: 97
+  s_side_gate: 30
   s_start: 716
   s_tilt: 6
-  s_top_lane_1: 134
-  s_top_lane_2: 54
-  s_top_lane_3: 70
-  s_top_lane_4: 40
-  s_trough1: 254
-  s_trough2: 24
+  s_top_lane_1: 142
+  s_top_lane_2: 61
+  s_top_lane_3: 74
+  s_top_lane_4: 45
+  s_trough1: 269
+  s_trough2: 25
   s_trough3: 25
   s_trough4: 26
   s_trough5: 25
   s_trough6: 27
-  s_trough_jam: 0
+  s_trough_jam: 3

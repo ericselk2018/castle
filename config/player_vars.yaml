@@ -8,3 +8,27 @@ player_vars:
     initial_value: 0
   quests_completed:
     initial_value: 0
+  bonus_walls_scaled:
+    initial_value: 0
+  bonus_moats_drained:
+    initial_value: 0
+  bonus_fires_quenched:
+    initial_value: 0
+  bonus_archer_shots:
+    initial_value: 0
+  bonus_ore_mined:
+    initial_value: 0
+  bonus_mobs_formed:
+    initial_value: 0
+  bonus_gates_hit:
+    initial_value: 0
+  bonus_gates_held:
+    initial_value: 0
+  bonus_sides_attacked:
+    initial_value: 0
+  bonus_walls_built:
+    initial_value: 0
+  bonus_quests_completed:
+    initial_value: 0
+  bonus_heals_given:
+    initial_value: 0

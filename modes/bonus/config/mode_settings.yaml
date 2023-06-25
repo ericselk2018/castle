@@ -1,0 +1,54 @@
+#config_version=5
+
+mode_settings:
+  display_delay_ms: 1s
+  hurry_up_delay_ms: 0
+  bonus_entries:
+    - event: bonus_walls_scaled
+      score: 1_000
+      player_score_entry: bonus_walls_scaled
+      reset_player_score_entry: true
+    - event: bonus_moats_drained
+      score: 100
+      player_score_entry: bonus_moats_drained
+      reset_player_score_entry: true
+    - event: bonus_fires_quenched
+      score: 500
+      player_score_entry: bonus_fires_quenched
+      reset_player_score_entry: true
+    - event: bonus_archer_shots
+      score: 500
+      player_score_entry: bonus_archer_shots
+      reset_player_score_entry: true
+    - event: bonus_ore_mined
+      score: 2_000
+      player_score_entry: bonus_ore_mined
+      reset_player_score_entry: true
+    - event: bonus_mobs_formed
+      score: 2_000
+      player_score_entry: bonus_mobs_formed
+      reset_player_score_entry: true
+    - event: bonus_gates_hit
+      score: 500
+      player_score_entry: bonus_gates_hit
+      reset_player_score_entry: true
+    - event: bonus_gates_held
+      score: 10_000
+      player_score_entry: bonus_gates_held
+      reset_player_score_entry: true
+    - event: bonus_sides_attacked
+      score: 500
+      player_score_entry: bonus_sides_attacked
+      reset_player_score_entry: true
+    - event: bonus_walls_built
+      score: 1_000
+      player_score_entry: bonus_walls_built
+      reset_player_score_entry: true
+    - event: bonus_quests_completed
+      score: 10_000
+      player_score_entry: bonus_quests_completed
+      reset_player_score_entry: true
+    - event: bonus_heals_given
+      score: 1_000
+      player_score_entry: bonus_heals_given
+      reset_player_score_entry: true

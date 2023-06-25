@@ -1,0 +1,111 @@
+#config_version=5
+
+slide_player:
+  mode_bonus_started:
+    widgets:
+      - type: text
+        text: Bonus
+  bonus_walls_scaled:
+    widgets:
+      - type: text
+        text: Walls Scaled (player|bonus_walls_scaled)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_moats_drained:
+    widgets:
+      - type: text
+        text: Moats Drained (player|bonus_moats_drained)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_fires_quenched:
+    widgets:
+      - type: text
+        text: Fires Quenched (player|bonus_fires_quenched)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_archer_shots:
+    widgets:
+      - type: text
+        text: Archer Shots (player|bonus_archer_shots)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_ore_mined:
+    widgets:
+      - type: text
+        text: Ore Mined (player|bonus_ore_mined)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_mobs_formed:
+    widgets:
+      - type: text
+        text: Mobs Formed (player|bonus_mobs_formed)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_gates_hit:
+    widgets:
+      - type: text
+        text: Gates Hit (player|bonus_gates_hit)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_gates_held:
+    widgets:
+      - type: text
+        text: Gates Held (player|bonus_gates_held)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_sides_attacked:
+    widgets:
+      - type: text
+        text: Sides Attacked (player|bonus_sides_attacked)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_walls_built:
+    widgets:
+      - type: text
+        text: Walls Built (player|bonus_walls_built)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_quests_completed:
+    widgets:
+      - type: text
+        text: Quests Won (player|bonus_quests_completed)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_heals_given:
+    widgets:
+      - type: text
+        text: Heals Given (player|bonus_heals_given)
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_total:
+    widgets:
+      - type: text
+        text: Total Bonus
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
