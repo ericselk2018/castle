@@ -1,9 +1,9 @@
 events:
-  game_ended: 12
-  game_started: 426
+  game_ended: 13
+  game_started: 429
 player:
   score:
-    average: 2303441.1764705884
+    average: 2175472.222222222
     top:
     - 3140000
     - 3020000
@@ -15,7 +15,7 @@ player:
     - 3020000
     - 3000000
     - 3000000
-    total: 17
+    total: 18
 shots:
   final_battle: 9
   gather_mob_1: 68
@@ -80,7 +80,7 @@ switches:
   s_ore_1: 55
   s_ore_2: 52
   s_ore_3: 56
-  s_plunger_lane: 673
+  s_plunger_lane: 684
   s_rear_gate: 11
   s_right_flipper: 406
   s_right_inlane: 28
@@ -93,7 +93,7 @@ switches:
   s_top_lane_2: 62
   s_top_lane_3: 75
   s_top_lane_4: 45
-  s_trough1: 277
+  s_trough1: 283
   s_trough2: 26
   s_trough3: 25
   s_trough4: 26

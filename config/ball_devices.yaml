@@ -13,6 +13,7 @@ ball_devices:
     ball_switches: s_plunger_lane
     mechanical_eject: true
     eject_timeouts: 5s
+    eject_coil: c_plunger
   bd_side_gate:
     ball_switches: s_side_gate
     eject_coil: c_side_gate
