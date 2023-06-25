@@ -109,3 +109,6 @@ switches:
     number:
   s_archer_3:
     number:
+  s_tilt:
+    number:
+    tags: tilt_warning
