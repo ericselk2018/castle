@@ -1,0 +1,14 @@
+#config_version=5
+
+variable_player:
+  achievement_complete:
+    achievements_completed: 1
+  quest_complete:
+    quests_completed: 1
+  castle_taken:
+    quests_completed:
+      int: 0
+      action: set
+    achievements_completed:
+      int: 0
+      action: set

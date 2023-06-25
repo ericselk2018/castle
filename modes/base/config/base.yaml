@@ -9,3 +9,4 @@ config:
   - multiball_locks.yaml
   - ball_saves.yaml
   - multiballs.yaml
+  - variable_player.yaml

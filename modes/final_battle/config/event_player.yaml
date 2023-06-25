@@ -1,0 +1,4 @@
+#config_version=5
+
+event_player:
+  final_battle_last_hit: final_battle_complete

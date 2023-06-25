@@ -1,0 +1,6 @@
+#config_version=5
+
+mode:
+  start_events: qualified_for_select_quest{current_player.achievements_completed == 11}
+  stop_events: final_battle_complete
+  restart_on_next_ball: true

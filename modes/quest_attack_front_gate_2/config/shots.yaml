@@ -1,0 +1,9 @@
+#config_version=5
+
+shots:
+  quest_attack_front_gate_2:
+    switch: s_front_gate
+    profile: flash_faster_each_hit_for_3_hits
+    reset_events: quest_complete
+    show_tokens:
+      leds: l_front_gate_1, l_front_gate_2, l_front_gate_3

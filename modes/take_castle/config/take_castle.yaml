@@ -1,0 +1,5 @@
+#config_version=5
+
+config:
+  - mode.yaml
+  - show_player.yaml

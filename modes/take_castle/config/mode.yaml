@@ -1,0 +1,6 @@
+#config_version=5
+
+mode:
+  start_events: final_battle_complete
+  stop_events: castle_taken
+  restart_on_next_ball: true

@@ -23,7 +23,12 @@ modes:
   - quest_drain_moat
   - quest_quench_fire
   - archer_attack
-  - catapult_multiball
+  - catapult_attack
   - quest_bonus
   - playfield_multiplier
   - ball_save
+  - quest_attack_front_gate_1
+  - quest_attack_front_gate_2
+  - quest_attack_front_gate_3
+  - final_battle
+  - take_castle

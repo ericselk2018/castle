@@ -1,6 +1,14 @@
 #config_version=5
 
 mode:
-  start_events: ball_started{ball==1}, quest_bonus_complete
+  start_events:
+    - ball_started{ball==1}
+    - castle_taken
+
+    # quest_attack_front_gate_1 starts after the 2nd quest is completed
+    # quest_attack_front_gate_2 starts after the 5th quest is completed
+    # quest_attack_front_gate_3 starts after the 8th quest is completed
+    - quest_bonus_complete{current_player.quests_completed != 2 and current_player.quests_completed != 5 and current_player.quests_completed != 8}
+    
   stop_events: qualified_for_select_quest
   restart_on_next_ball: true

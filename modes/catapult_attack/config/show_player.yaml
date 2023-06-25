@@ -1,7 +1,7 @@
 #config_version=5
 
 show_player:
-  mode_catapult_multiball_started: 
+  mode_catapult_attack_started: 
     flash:
       sync_ms: 1000
       speed: 3

@@ -8,6 +8,8 @@ achievements:
     show_when_completed: on
     complete_events: quest_attack_left_complete
     start_events: mode_quest_attack_left_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
   attack_right:
     show_tokens:
       led: l_attack_right_achievement
@@ -15,6 +17,8 @@ achievements:
     show_when_completed: on
     complete_events: quest_attack_right_complete
     start_events: mode_quest_attack_right_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
   scale_walls:
     show_tokens:
       led: l_scale_walls_achievement
@@ -22,6 +26,8 @@ achievements:
     show_when_completed: on
     complete_events: quest_scale_walls_complete
     start_events: mode_quest_scale_walls_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
   mass_attack:
     show_tokens:
       led: l_mass_attack_achievement
@@ -29,6 +35,8 @@ achievements:
     show_when_completed: on
     complete_events: quest_mass_attack_complete
     start_events: mode_quest_mass_attack_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
   drain_moat:
     show_tokens:
       led: l_drain_moat_achievement
@@ -36,6 +44,8 @@ achievements:
     show_when_completed: on
     complete_events: quest_drain_moat_complete
     start_events: mode_quest_drain_moat_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
   quench_fire:
     show_tokens:
       led: l_quench_fire_achievement
@@ -43,6 +53,8 @@ achievements:
     show_when_completed: on
     complete_events: quest_quench_fire_complete
     start_events: mode_quest_quench_fire_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
   archer_attack:
     show_tokens:
       led: l_archer_attack_achievement
@@ -50,3 +62,50 @@ achievements:
     show_when_completed: on
     complete_events: archer_attack_complete
     start_events: mode_archer_attack_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
+  attack_front_gate_1:
+    show_tokens:
+      led: l_attack_front_gate_achievement_1
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: quest_attack_front_gate_1_complete
+    start_events: mode_quest_attack_front_gate_1_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
+  attack_front_gate_2:
+    show_tokens:
+      led: l_attack_front_gate_achievement_2
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: quest_attack_front_gate_2_complete
+    start_events: mode_quest_attack_front_gate_2_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
+  attack_front_gate_3:
+    show_tokens:
+      led: l_attack_front_gate_achievement_3
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: quest_attack_front_gate_3_complete
+    start_events: mode_quest_attack_front_gate_3_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
+  catapult_attack:
+    show_tokens:
+      led: l_catapult_attack_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: mode_catapult_attack_stopped
+    start_events: mode_catapult_attack_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken
+  final_battle:
+    show_tokens:
+      led: l_final_battle_achievement
+    show_when_started: flash
+    show_when_completed: on
+    complete_events: final_battle_complete
+    start_events: mode_final_battle_started
+    events_when_completed: achievement_complete
+    reset_events: castle_taken

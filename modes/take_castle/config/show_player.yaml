@@ -1,0 +1,10 @@
+#config_version=5
+
+show_player:
+  mode_take_castle_started:
+    flash_color:
+      loops: 10
+      events_when_completed: castle_taken
+      show_tokens:
+        leds: l_front_gate_1, l_front_gate_2, l_front_gate_3
+        color: red

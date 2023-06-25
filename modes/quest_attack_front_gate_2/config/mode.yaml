@@ -1,0 +1,6 @@
+#config_version=5
+
+mode:
+  start_events: quest_bonus_complete{current_player.quests_completed == 5}
+  stop_events: quest_complete
+  restart_on_next_ball: true

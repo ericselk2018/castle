@@ -4,3 +4,7 @@ player_vars:
   playfield_multiplier:
     initial_value: 1
     value_type: float
+  achievements_completed:
+    initial_value: 0
+  quests_completed:
+    initial_value: 0
