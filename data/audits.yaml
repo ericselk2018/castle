@@ -1,6 +1,6 @@
 events:
   game_ended: 11
-  game_started: 382
+  game_started: 394
 player:
   score:
     average: 2445000.0
@@ -20,10 +20,10 @@ shots:
   gather_mob_1: 58
   gather_mob_2: 58
   gather_mob_3: 58
-  heal_lane_1: 24
-  heal_lane_2: 95
-  heal_lane_3: 48
-  heal_lane_4: 26
+  heal_lane_1: 26
+  heal_lane_2: 109
+  heal_lane_3: 62
+  heal_lane_4: 28
   mine_ore_1: 24
   mine_ore_2: 24
   mine_ore_3: 24
@@ -58,11 +58,11 @@ switches:
   s_catapult_3: 23
   s_fire: 4
   s_front_gate: 76
-  s_heal_ball_save: 34
-  s_heal_lane_1: 24
-  s_heal_lane_2: 95
-  s_heal_lane_3: 48
-  s_heal_lane_4: 26
+  s_heal_ball_save: 42
+  s_heal_lane_1: 26
+  s_heal_lane_2: 109
+  s_heal_lane_3: 62
+  s_heal_lane_4: 28
   s_launch_button: 0
   s_left_flipper: 226
   s_left_ramp: 37
@@ -75,9 +75,9 @@ switches:
   s_ore_1: 27
   s_ore_2: 27
   s_ore_3: 27
-  s_plunger_lane: 572
+  s_plunger_lane: 586
   s_rear_gate: 5
-  s_right_flipper: 394
+  s_right_flipper: 406
   s_right_inlane: 28
   s_right_ramp: 43
   s_right_shot_lane: 22
@@ -88,7 +88,7 @@ switches:
   s_top_lane_3: 63
   s_top_lane_4: 33
   s_trough1: 252
-  s_trough2: 15
+  s_trough2: 17
   s_trough3: 19
   s_trough4: 17
   s_trough5: 25

@@ -1,0 +1,6 @@
+#config_version=5
+
+ball_saves:
+  heal_ball_save:
+    active_time: 5s
+    enable_events: kickback_heal_kickback_fired

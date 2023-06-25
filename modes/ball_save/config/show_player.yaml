@@ -1,0 +1,16 @@
+#config_version=5
+
+show_player:
+  ball_save_quick_death_enabled:
+    on:
+      show_tokens:
+        led: l_ball_save
+  ball_save_quick_death_hurry_up:
+    flash:
+      speed: 3
+      show_tokens:
+        led: l_ball_save
+  ball_save_quick_death_grace_period:
+    off:
+      show_tokens:
+        led: l_ball_save

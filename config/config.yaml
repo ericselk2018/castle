@@ -29,3 +29,4 @@ config:
   - machine_vars.yaml
   - spinners.yaml
   - player_vars.yaml
+  - kickbacks.yaml

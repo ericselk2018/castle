@@ -1,0 +1,10 @@
+#config_version=5
+
+ball_saves:
+  quick_death:
+    active_time: 20s
+    grace_period: 4s
+    hurry_up_time: 4s
+    early_ball_save_events: s_heal_lane_1_active, s_heal_lane_4_active
+    enable_events: mode_ball_save_started
+    timer_start_events: balldevice_bd_plunger_ball_eject_success

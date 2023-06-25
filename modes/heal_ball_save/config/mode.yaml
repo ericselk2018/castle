@@ -2,5 +2,5 @@
 
 mode:
   start_events: heal_lane_group_on_complete
-  stop_events: s_heal_ball_save_active
+  stop_events: ball_save_heal_ball_save_disabled
   restart_on_next_ball: true
