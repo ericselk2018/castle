@@ -77,17 +77,17 @@ lights:
     number:
   l_archer_attack_achievement:
     number: 
-  l_playfield_2:
+  l_playfield_multiplier_2x:
     number: 
-  l_playfield_3:
+  l_playfield_multiplier_3x:
     number: 
-  l_playfield_4:
+  l_playfield_multiplier_4x:
     number: 
-  l_bonus_2:
+  l_bonus_multiplier_2x:
     number: 
-  l_bonus_3:
+  l_bonus_multiplier_3x:
     number: 
-  l_bonus_4:
+  l_bonus_multiplier_4x:
     number: 
   l_attack_front_gate_achievement_1:
     number:

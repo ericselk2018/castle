@@ -23,3 +23,6 @@ modes:
   - quest_drain_moat
   - quest_quench_fire
   - archer_attack
+  - catapult_multiball
+  - quest_bonus
+  - playfield_multiplier

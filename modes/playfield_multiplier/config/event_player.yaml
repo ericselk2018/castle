@@ -1,0 +1,5 @@
+#config_version=5
+
+event_player:
+  # post the change event when a new ball starts so that anything based on this value will update
+  mode_playfield_multiplier_started: player_playfield_multiplier

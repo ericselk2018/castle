@@ -2,4 +2,4 @@
 
 variable_player:
   skill_shot_group_lit_hit:
-    score: 20_000
+    score: 20_000 * current_player.playfield_multiplier

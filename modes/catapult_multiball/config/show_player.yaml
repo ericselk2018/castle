@@ -1,0 +1,9 @@
+#config_version=5
+
+show_player:
+  mode_catapult_multiball_started: 
+    flash:
+      sync_ms: 1000
+      speed: 3
+      show_tokens:
+        leds: l_front_gate_1, l_front_gate_2, l_front_gate_3

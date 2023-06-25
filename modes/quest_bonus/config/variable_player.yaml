@@ -1,0 +1,5 @@
+#config_version=5
+
+variable_player:
+  quest_bonus_hit:
+    score: 1_000 * current_player.playfield_multiplier

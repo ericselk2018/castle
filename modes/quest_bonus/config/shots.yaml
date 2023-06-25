@@ -1,0 +1,9 @@
+#config_version=5
+
+shots:
+  quest_bonus:
+    switches: s_left_ramp, s_right_ramp
+    profile: lit_flash
+    show_tokens:
+      leds: l_left_ramp, l_right_ramp
+    

@@ -1,0 +1,15 @@
+#config_version=5
+
+show_player:
+  player_playfield_multiplier{current_player.playfield_multiplier >= 2}:
+    on:
+      show_tokens:
+        led: l_playfield_multiplier_2x
+  player_playfield_multiplier{current_player.playfield_multiplier >= 3}:
+    on:
+      show_tokens:
+        leds: l_playfield_multiplier_2x, l_playfield_multiplier_3x
+  player_playfield_multiplier{current_player.playfield_multiplier >= 4}:
+    on:
+      show_tokens:
+        leds: l_playfield_multiplier_2x, l_playfield_multiplier_3x, l_playfield_multiplier_4x

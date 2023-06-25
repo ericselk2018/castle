@@ -1,0 +1,7 @@
+#config_version=5
+
+config:
+  - mode.yaml
+  - show_player.yaml
+  - variable_player.yaml
+  - event_player.yaml

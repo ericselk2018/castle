@@ -1,0 +1,8 @@
+#config_version=5
+
+config:
+  - mode.yaml
+  - timers.yaml
+  - event_player.yaml
+  - shots.yaml
+  - variable_player.yaml

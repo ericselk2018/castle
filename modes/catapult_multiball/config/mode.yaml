@@ -1,0 +1,5 @@
+#config_version=5
+
+mode:
+  start_events: multiball_catapult_started
+  stop_events: multiball_catapult_ended

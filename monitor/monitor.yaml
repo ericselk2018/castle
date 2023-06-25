@@ -32,13 +32,13 @@ light:
   l_ball_save:
     x: 0.45206814534840134
     y: 0.894478527607362
-  l_bonus_2:
+  l_bonus_multiplier_2x:
     x: 0.6414245631702024
     y: 0.505521472392638
-  l_bonus_3:
+  l_bonus_multiplier_3x:
     x: 0.6406609912606178
     y: 0.5325153374233129
-  l_bonus_4:
+  l_bonus_multiplier_4x:
     x: 0.6406609912606178
     y: 0.558282208588957
   l_catapult_attack_achievement:
@@ -130,13 +130,13 @@ light:
   l_ore_3:
     x: 0.7948086978413377
     y: 0.554601226993865
-  l_playfield_2:
+  l_playfield_multiplier_2x:
     x: 0.30507666250505605
     y: 0.5067484662576687
-  l_playfield_3:
+  l_playfield_multiplier_3x:
     x: 0.30507666250505605
     y: 0.5337423312883436
-  l_playfield_4:
+  l_playfield_multiplier_4x:
     x: 0.3023032383004647
     y: 0.5607361963190184
   l_quench_fire_achievement:

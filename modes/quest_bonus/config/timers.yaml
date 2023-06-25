@@ -1,0 +1,8 @@
+#config_version=5
+
+timers:
+  quest_bonus:
+    start_running: true
+    start_value: 10
+    end_value: 0
+    direction: down

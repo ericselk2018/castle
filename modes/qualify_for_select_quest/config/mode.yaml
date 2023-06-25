@@ -1,6 +1,6 @@
 #config_version=5
 
 mode:
-  start_events: ball_started{ball==1}, quest_complete
+  start_events: ball_started{ball==1}, quest_bonus_complete
   stop_events: qualified_for_select_quest
   restart_on_next_ball: true
