@@ -1,9 +1,9 @@
 events:
-  game_ended: 11
-  game_started: 420
+  game_ended: 12
+  game_started: 426
 player:
   score:
-    average: 2445000.0
+    average: 2303441.1764705884
     top:
     - 3140000
     - 3020000
@@ -15,19 +15,19 @@ player:
     - 3020000
     - 3000000
     - 3000000
-    total: 16
+    total: 17
 shots:
   final_battle: 9
-  gather_mob_1: 67
-  gather_mob_2: 64
-  gather_mob_3: 71
-  heal_lane_1: 31
-  heal_lane_2: 113
-  heal_lane_3: 66
+  gather_mob_1: 68
+  gather_mob_2: 65
+  gather_mob_3: 72
+  heal_lane_1: 33
+  heal_lane_2: 115
+  heal_lane_3: 67
   heal_lane_4: 33
-  mine_ore_1: 42
-  mine_ore_2: 39
-  mine_ore_3: 43
+  mine_ore_1: 52
+  mine_ore_2: 49
+  mine_ore_3: 53
   quest_attack_front_gate: 6
   quest_attack_front_gate_1: 48
   quest_attack_front_gate_2: 40
@@ -50,9 +50,9 @@ shots:
   skill_shot_2: 19
   skill_shot_3: 31
   skill_shot_4: 5
-  top_lane_1: 139
-  top_lane_2: 60
-  top_lane_3: 73
+  top_lane_1: 140
+  top_lane_2: 61
+  top_lane_3: 74
   top_lane_4: 44
 switches:
   s_archer_1: 10
@@ -63,24 +63,24 @@ switches:
   s_catapult_3: 35
   s_fire: 65
   s_front_gate: 270
-  s_heal_ball_save: 46
-  s_heal_lane_1: 31
-  s_heal_lane_2: 113
-  s_heal_lane_3: 66
+  s_heal_ball_save: 47
+  s_heal_lane_1: 33
+  s_heal_lane_2: 115
+  s_heal_lane_3: 67
   s_heal_lane_4: 33
   s_launch_button: 0
   s_left_flipper: 226
   s_left_ramp: 261
-  s_left_shot_lane: 318
-  s_moat_left: 68
+  s_left_shot_lane: 325
+  s_moat_left: 69
   s_moat_right: 14
-  s_mob_1: 67
-  s_mob_2: 64
-  s_mob_3: 71
-  s_ore_1: 45
-  s_ore_2: 42
-  s_ore_3: 46
-  s_plunger_lane: 659
+  s_mob_1: 68
+  s_mob_2: 65
+  s_mob_3: 72
+  s_ore_1: 55
+  s_ore_2: 52
+  s_ore_3: 56
+  s_plunger_lane: 673
   s_rear_gate: 11
   s_right_flipper: 406
   s_right_inlane: 28
@@ -89,12 +89,12 @@ switches:
   s_side_gate: 30
   s_start: 716
   s_tilt: 6
-  s_top_lane_1: 142
-  s_top_lane_2: 61
-  s_top_lane_3: 74
+  s_top_lane_1: 143
+  s_top_lane_2: 62
+  s_top_lane_3: 75
   s_top_lane_4: 45
-  s_trough1: 269
-  s_trough2: 25
+  s_trough1: 277
+  s_trough2: 26
   s_trough3: 25
   s_trough4: 26
   s_trough5: 25

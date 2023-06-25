@@ -101,6 +101,22 @@ slide_player:
       - type: text
         text: (score)
         y: 40%
+  bonus_subtotal:
+    widgets:
+      - type: text
+        text: Bonus
+        y: 60%
+      - type: text
+        text: (score)
+        y: 40%
+  bonus_multiplier:
+    widgets:
+      - type: text
+        text: Bonus x (player|bonus_multiplier)
+        y: 60%
+      - type: text
+        text: (multiplier)
+        y: 40%
   bonus_total:
     widgets:
       - type: text

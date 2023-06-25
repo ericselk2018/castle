@@ -1,0 +1,5 @@
+#config_version=5
+
+variable_player:
+  mine_ore_group_on_complete{current_player.bonus_multiplier < 4}:
+    bonus_multiplier: 1
