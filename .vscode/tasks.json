@@ -8,6 +8,12 @@
             "presentation": {"echo": true, "reveal": "always", "focus": true, "panel": "shared", "showReuseMessage": false, "clear": true},
         },
         {
+            "label": "mc",
+            "type": "shell",
+            "command": "mpf mc -vV",
+            "presentation": {"echo": true, "reveal": "always", "focus": true, "panel": "shared", "showReuseMessage": false, "clear": true},
+        },
+        {
             "label": "monitor",
             "type": "shell",
             "command": "mpf monitor",
@@ -19,5 +25,17 @@
             "command": "python3 -m unittest",
             "presentation": {"echo": true, "reveal": "always", "focus": true, "panel": "shared", "showReuseMessage": false, "clear": true},
         },
+        {
+            "label": "show creator",
+            "type": "shell",
+            "command": "cp monitor/monitor.yaml ../showcreator/ && open -n \"../showcreator/led mac x64.app\"",
+            "presentation": {"echo": true, "reveal": "always", "focus": true, "panel": "shared", "showReuseMessage": false, "clear": true},
+        },
+        {
+            "label": "copy show",
+            "type": "shell",
+            "command": "cp ../showcreator/output1.yaml show.yaml",
+            "presentation": {"echo": true, "reveal": "always", "focus": true, "panel": "shared", "showReuseMessage": false, "clear": true},
+        }
     ]
 }
