@@ -130,8 +130,44 @@ Always active during game play.  Use flippers for lane change (except while skil
 
 #### Attack Left
 
+Awarded for completing the attack left quest.
+
 #### Attack Right
 
-TODO - finish Achievements and start on Shots...
+Awarded for completing the attack right quest.
+
+#### Scale Walls
+
+Awarded for completing the scale walls quest.
+
+#### Mass Attack
+
+Awarded for completing the mass attack quest.
+
+#### Drain Moat
+
+Awarded for completing the drain moat quest.
+
+#### Quench Fire
+
+Awarded for completing the quench fire quest.
+
+#### Archer Attack
+
+Awarded for completing an archer attack.
+
+#### Attack Front Gates 1, 2, 3
+
+Awarded for completing the attack front gates 1, 2, 3 quests.
+
+#### Catapult Attack
+
+Awarded for completing a catapult attack.
+
+#### Final Battle
+
+Awarded for completing the final battle.
 
 ### Shots
+
+TBD
