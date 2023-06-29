@@ -3,4 +3,3 @@
 variable_player:
   top_lane_group_hit_complete:
     score: 100_000 * current_player.playfield_multiplier
-    bonus_multiplier: 1
