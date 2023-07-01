@@ -128,6 +128,8 @@ Always active during game play.  Use flippers for lane change (except while skil
 
 ### Achievements
 
+Achievements are how the player progresses through the game and eventually gets to the final battle to win the game.  Instead of ending after the game is won, the achievements are all reset so a player can attempt to win multiple times in the same game.  The playfield has a group of lights to mark active (flashing) and completed (lit) achievements to make it easy for players to see their progress.  There are 12 achievements total and the lights are placed in a 3x3 grid for the 9 quest achievements, with 2 special achievements (archer and catapult attacks) on top, with the final battle achievement above that, to form the shape of a pointed castle.  The 9 quest achievements can be done in any order (except for the 3 front gate attacks that have a set order), but only one quest can be running at a time.  The 2 special achievements (archer and catapult attacks) could be thought of as side quests, they can be run together (stacked) with quest achievements.  The final battle achievement can only be started after all other achievements are complete.
+
 #### Attack Left
 
 Awarded for completing the attack left quest.
