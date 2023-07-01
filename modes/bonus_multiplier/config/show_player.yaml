@@ -1,14 +1,26 @@
 #config_version=5
 
 show_player:
+  mode_bonus_multiplier_started{current_player.bonus_multiplier >= 2}:
+    on:
+      show_tokens:
+        led: l_bonus_multiplier_2x
   player_bonus_multiplier{current_player.bonus_multiplier >= 2}:
     on:
       show_tokens:
         led: l_bonus_multiplier_2x
+  mode_bonus_multiplier_started{current_player.bonus_multiplier >= 3}:
+    on:
+      show_tokens:
+        leds: l_bonus_multiplier_2x, l_bonus_multiplier_3x
   player_bonus_multiplier{current_player.bonus_multiplier >= 3}:
     on:
       show_tokens:
         leds: l_bonus_multiplier_2x, l_bonus_multiplier_3x
+  mode_bonus_multiplier_started{current_player.bonus_multiplier >= 4}:
+    on:
+      show_tokens:
+        leds: l_bonus_multiplier_2x, l_bonus_multiplier_3x, l_bonus_multiplier_4x
   player_bonus_multiplier{current_player.bonus_multiplier >= 4}:
     on:
       show_tokens:

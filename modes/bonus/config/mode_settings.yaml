@@ -3,6 +3,7 @@
 mode_settings:
   display_delay_ms: 1s
   hurry_up_delay_ms: 0
+  keep_multiplier: true
   bonus_entries:
     - event: bonus_walls_scaled
       score: 1_000

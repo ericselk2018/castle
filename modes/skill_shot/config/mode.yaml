@@ -2,5 +2,5 @@
 
 mode:
   start_events: ball_started
-  stop_events: playfield_active
+  stop_events: sw_playfield_active
   priority: 1000
