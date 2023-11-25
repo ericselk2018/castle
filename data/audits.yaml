@@ -1,6 +1,6 @@
 events:
   game_ended: 14
-  game_started: 436
+  game_started: 438
 player:
   score:
     average: 2073710.5263157894
@@ -80,14 +80,14 @@ switches:
   s_ore_1: 64
   s_ore_2: 62
   s_ore_3: 66
-  s_plunger_lane: 714
+  s_plunger_lane: 716
   s_rear_gate: 11
   s_right_flipper: 411
   s_right_inlane: 28
   s_right_ramp: 134
   s_right_shot_lane: 97
   s_side_gate: 30
-  s_start: 719
+  s_start: 736
   s_tilt: 6
   s_top_lane_1: 161
   s_top_lane_2: 66

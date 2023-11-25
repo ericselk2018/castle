@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 variable_player:
   top_lane_group_hit_complete:

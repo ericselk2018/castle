@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 mode:
   start_events: skill_shot_group_lit_hit

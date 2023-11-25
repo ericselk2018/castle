@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 shot_profiles:
   off_then_on_when_hit:

@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 variable_player:
   gather_mob_group_on_complete{current_player.playfield_multiplier < 4}:

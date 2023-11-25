@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 mode:
   start_events: qualified_for_select_quest{current_player.achievements_completed == 11}

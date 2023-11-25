@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 event_player:
   player_score{current_player.score < 10000}:

@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 variable_player:
   skill_shot_group_lit_hit:

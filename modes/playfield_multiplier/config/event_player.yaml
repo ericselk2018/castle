@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 event_player:
   # post the change event when a new ball starts so that anything based on this value will update
